@@ -11,17 +11,17 @@ import java.sql.Timestamp;
 
 public class FirstServlet extends HttpServlet {
     public void doGet(HttpServletRequest request, HttpServletResponse response){
-        long start = System.currentTimeMillis();
+//        long start = System.currentTimeMillis();
+//
+//        long sum = 0;
+//        //求10亿数累加
+//        for(int i=0;i<1000000000;i++){
+//            sum+=i;
+//        }
+//        long end = System.currentTimeMillis();
 
-        long sum = 0;
-        //求10亿数累加
-        for(int i=0;i<1000000000;i++){
-            sum+=i;
-        }
-        long end = System.currentTimeMillis();
-
-        System.out.println("first Servlet ....."+sum);
-        System.out.println("一共耗时 ....."+ (end-start));
+        System.out.println("执行 first Servlet .....");
+//        System.out.println("一共耗时 ....."+ (end-start));
     }
 
 }
