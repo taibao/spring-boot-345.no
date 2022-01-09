@@ -38,6 +38,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/springbootfreemarker/pom.xml" />
+        <option value="$PROJECT_DIR$/springbootfreemarker/src/main/java/com/vitas/controller/PageController.java" />
       </list>
     </option>
   </component>
@@ -103,6 +104,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="78" width="1177" height="880" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25425246" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

@@ -22,7 +22,6 @@ freemark 页面
         <td>${user.usersex}</td>
         <td>${user.userage}</td>
     </tr>
-
     </#list>
 
 </table>
