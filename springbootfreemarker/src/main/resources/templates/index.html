@@ -12,5 +12,20 @@
 <span th:text="vitas">vitas哥哥</span>
 <hr/>
 <span th:text="${msg}"></span>
+<hr/>
+<input type="text"  th:value="${msg}"/>
+<hr/>
+判断变量是否为空
+<span th:text="${#strings.isEmpty(msg)}"></span>
+<hr/>
+判断字符串是否包含某子串
+<span th:text="${#strings.contains(msg,'Hello')}"></span>
+<hr/>
+判断字符串长度
+<span th:text="${#strings.length(msg)}"></span>
+
+<hr/>
+日期
+<span th:text="${#dates.format(date)}"></span>
 </body>
 </html>
