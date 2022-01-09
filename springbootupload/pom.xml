@@ -44,6 +44,19 @@
             <artifactId>spring-boot-autoconfigure</artifactId>
             <version>2.0.2.RELEASE</version>
         </dependency>
+
+        <!-- 添加jsp引擎，springBoot内置的Tomcat中没有此依赖 -->
+        <dependency>
+            <groupId>org.apache.tomcat.embed</groupId>
+            <artifactId>tomcat-embed-jasper</artifactId>
+        </dependency>
+
+        <!-- 添加jstl坐标依赖 -->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jstls</artifactId>
+        </dependency>
+
     </dependencies>
 
     <!--spring boot 打包插件 没有它。打包的时候不会包含spring-boot的所有项目文件-->
