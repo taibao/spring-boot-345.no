@@ -24,7 +24,10 @@ public class PageController {
     public String show(Model model){
         model.addAttribute("msg","Hello Thymeleaf");
         model.addAttribute("date",new Date());
-        
+
+        model.addAttribute("sex",1);
+        model.addAttribute("id",6);
+
         return "index";
     }
 }
