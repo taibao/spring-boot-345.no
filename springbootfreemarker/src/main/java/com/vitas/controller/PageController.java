@@ -9,6 +9,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
+import java.util.Date;
+
 @Controller
 public class PageController {
 //    @GetMapping("/{page}")
@@ -21,6 +23,8 @@ public class PageController {
     @GetMapping("/show")
     public String show(Model model){
         model.addAttribute("msg","Hello Thymeleaf");
+        model.addAttribute("date",new Date());
+        
         return "index";
     }
 }
