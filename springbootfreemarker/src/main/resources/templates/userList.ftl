@@ -23,7 +23,6 @@ freemark 页面
         <td>${user.userage}</td>
     </tr>
     </#list>
-
 </table>
 
 </body>

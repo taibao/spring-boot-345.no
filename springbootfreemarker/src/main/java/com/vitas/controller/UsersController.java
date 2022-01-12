@@ -17,9 +17,9 @@ public class UsersController {
     @GetMapping("/showUsers")
     public String showUsers(Model model){
         List<Users> list = new ArrayList<>();
-        list.add(new Users("admin","F","23"));
-        list.add(new Users("tom","m","23"));
-        list.add(new Users("bob","m","23"));
+        list.add(new Users("1","admin","F","23"));
+        list.add(new Users("2","tom","m","23"));
+        list.add(new Users("3","bob","m","23"));
         model.addAttribute("list",list);
         return "userList";
     }

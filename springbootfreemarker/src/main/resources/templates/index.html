@@ -52,5 +52,109 @@ switch
 </div>
 
 
+<h1>循环迭代</h1>
+
+<table border="1" align="center" width="50%">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Gender</th>
+        <th>Age</th>
+        <th>Index</th>
+        <th>Count</th>
+        <th>Size</th>
+        <th>Odd</th>
+        <th>Even</th>
+        <th>First</th>
+        <th>Last</th>
+    </tr>
+    <tr th:each="u,var : ${list}">
+        <td th:text="${u.id}" ></td>
+        <td th:text="${u.username}"></td>
+        <td th:text="${u.userage}" ></td>
+        <td th:text="${u.usersex}" ></td>
+
+        <td th:text="${var.index}" ></td>
+        <td th:text="${var.count}" ></td>
+        <td th:text="${var.size}" ></td>
+        <td th:text="${var.odd}" ></td>
+        <td th:text="${var.even}" ></td>
+        <td th:text="${var.first}" ></td>
+        <td th:text="${var.last}" ></td>
+    </tr>
+
+</table>
+
+
+<h1>迭代map</h1>
+
+
+<table border="1" align="center" width="50%">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Gender</th>
+        <th>Age</th>
+        <th>Key</th>
+<!--        <th>Index</th>-->
+<!--        <th>Count</th>-->
+<!--        <th>Size</th>-->
+<!--        <th>Odd</th>-->
+<!--        <th>Even</th>-->
+<!--        <th>First</th>-->
+<!--        <th>Last</th>-->
+    </tr>
+    <tr th:each="m : ${map}">
+        <td th:text="${m.value.getId()}" ></td>
+        <td th:text="${m.value.getUsername()}"></td>
+        <td th:text="${m.value.getUserage()}" ></td>
+        <td th:text="${m.value.getUsersex()}" ></td>
+        <td th:text="${m.key}" ></td>
+
+<!--        <td th:text="${var.index}" ></td>-->
+<!--        <td th:text="${var.count}" ></td>-->
+<!--        <td th:text="${var.size}" ></td>-->
+<!--        <td th:text="${var.odd}" ></td>-->
+<!--        <td th:text="${var.even}" ></td>-->
+<!--        <td th:text="${var.first}" ></td>-->
+<!--        <td th:text="${var.last}" ></td>-->
+    </tr>
+
+</table>
+
+
+
+
+<h1>操作域对象</h1>
+<hr>
+
+HttpServletRequest:
+<hr>
+<span th:text="${#request.getAttribute('req')}"></span>
+<hr>
+<span th:text="${#httpServletRequest.getAttribute('req')}"></span>
+
+<hr>
+HttpSession:
+<hr>
+<span th:text="${session.ses}"></span>
+<hr>
+<span th:text="${#httpSession.getAttribute('ses')}"></span>
+<hr>
+Application:
+
+<hr>
+<span th:text="${application.app}"></span>
+<hr>
+<span th:text="${#servletContext.getAttribute('app')}"></span>
+
+
+<h1>URL表达式</h1>
+<a th:href="@{http://www.baidu.com}">打开百度</a>
+<a th:href="@{/show2}">打开index2</a>
+
+
+
+
 </body>
 </html>

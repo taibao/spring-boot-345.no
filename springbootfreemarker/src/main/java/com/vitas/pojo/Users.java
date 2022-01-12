@@ -1,9 +1,18 @@
 package com.vitas.pojo;
 
 public class Users {
+    private String id;
     private String username;
     private String usersex;
     private String userage;
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
 
     public String getUsername() {
         return username;
@@ -25,13 +34,14 @@ public class Users {
         return userage;
     }
 
-    public void setUserage(String userage) {
+    public Users(String id, String username, String usersex, String userage) {
+        this.id = id;
+        this.username = username;
+        this.usersex = usersex;
         this.userage = userage;
     }
 
-    public Users(String username, String usersex, String userage) {
-        this.username = username;
-        this.usersex = usersex;
+    public void setUserage(String userage) {
         this.userage = userage;
     }
 
