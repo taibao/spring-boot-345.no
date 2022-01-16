@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="803a1b44-a865-499c-a765-874e57a01adc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/spring-boot-345.no.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springbootdemo3" beforeDir="false" afterPath="$PROJECT_DIR$/springbootdemo3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springbootdemo3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springbootdemo3/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -19,8 +17,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="913" />
-    <option name="y" value="20" />
+    <option name="x" value="984" />
+    <option name="y" value="18" />
     <option name="width" value="1283" />
     <option name="height" value="918" />
   </component>
