@@ -65,9 +65,9 @@ public class PageController {
         return "index2";
     }
 
-    @GetMapping("/show3/{id}")
-    public String show2(@PathVariable String id){
-        System.out.println(id);
+    @GetMapping("/show3/{id}/{name}")
+    public String show3(@PathVariable String id, @PathVariable String name){
+        System.out.println(id+"\t"+name);
         return "index2";
     }
 
