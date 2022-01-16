@@ -51,11 +51,17 @@ public class PageController {
         request.getSession().setAttribute("ses","HttpSession");
         request.getSession().getServletContext().setAttribute("app","application");
 
+
+        //传递链接参数
+        model.addAttribute("id",10);
+        model.addAttribute("name","vitas");
+
         return "index";
     }
 
     @GetMapping("/show2")
-    public String show2(){
+    public String show2(String id,String name){
+        System.out.println(id+"\t"+name);
         return "index2";
     }
 
