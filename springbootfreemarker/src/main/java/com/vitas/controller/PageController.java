@@ -8,7 +8,9 @@ import com.vitas.pojo.Users;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.Mapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.*;
@@ -82,5 +84,9 @@ public class PageController {
         return "index3";
     }
 
+    @RequestMapping("/{page}")
+    public String showPage(@PathVariable String page){
+        return page;
+    }
 
 }
