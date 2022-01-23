@@ -3,11 +3,7 @@ package com.vitas.config;
 /*
 * JDBC配置信息属性类
 * */
-
 import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.context.annotation.Configuration;
-
-
 @ConfigurationProperties(prefix="jdbc")//SpringBoot的注解不能读取其他配置，读取jdbc.properties
 public class JdbcProperties {
     private String driverClassName;

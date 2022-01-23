@@ -6,11 +6,9 @@ package com.vitas.config;
 
 import com.alibaba.druid.pool.DruidDataSource;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.PropertySource;
 
 import javax.sql.DataSource;
 
@@ -21,10 +19,15 @@ public class JdbcConfiguration {
 
     @Autowired
     private JdbcProperties jdbcProperties;
+
+    public JdbcConfiguration(JdbcProperties jdbcProperties) {
+        this.jdbcProperties = jdbcProperties;
+    }
     /*
      *实例化Druid
      */
     @Bean
+//    @ConfigurationProperties(prefix="jdbc")
     public DataSource getDataSource(){
         DruidDataSource source = new DruidDataSource();
         source.setPassword(this.jdbcProperties.getPassword());
