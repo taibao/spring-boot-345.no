@@ -8,7 +8,9 @@ import com.vitas.pojo.Users;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.Mapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.*;
@@ -51,13 +53,40 @@ public class PageController {
         request.getSession().setAttribute("ses","HttpSession");
         request.getSession().getServletContext().setAttribute("app","application");
 
+
+        //传递链接参数
+        model.addAttribute("id",10);
+        model.addAttribute("name","vitas");
+
         return "index";
     }
 
     @GetMapping("/show2")
-    public String show2(){
+    public String show2(String id,String name){
+        System.out.println(id+"\t"+name);
         return "index2";
     }
 
+    @GetMapping("/show3/{id}/{name}")
+    public String show3(@PathVariable String id, @PathVariable String name){
+        System.out.println(id+"\t"+name);
+        return "index2";
+    }
+
+    @GetMapping("/show4/{id}/{name}")
+    public String show4(@PathVariable String id, @PathVariable String name){
+        System.out.println(id+"\t"+name);
+        return "index2";
+    }
+
+    @GetMapping("/show5")
+    public String show5(){
+        return "index3";
+    }
+
+    @RequestMapping("/{page}")
+    public String showPage(@PathVariable String page){
+        return page;
+    }
 
 }

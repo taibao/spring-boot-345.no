@@ -3,6 +3,16 @@ package com.vitas.pojo;
 public class Users {
     private String id;
     private String username;
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    private String password;
     private String usersex;
     private String userage;
 

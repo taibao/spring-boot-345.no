@@ -9,4 +9,6 @@ public class SpringBootFreeMarkApplication {
     public static void main(String[] args){
         SpringApplication.run(SpringBootFreeMarkApplication.class,args);
     }
+
+
 }
