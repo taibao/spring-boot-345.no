@@ -59,6 +59,24 @@ public class UsersController {
         return "redirect:/ok"; //跳转页面
     }
 
+    /**
+     * 查找用户列表
+     * @return
+     */
+    @GetMapping("/findUserAll")
+    public String findUserAll(Model model){
+        List<Users> list = null;
+        try{
+            list =  this.usersService.findUsersAll();
+            model.addAttribute("list",list);
+        }catch(Exception e){
+            e.printStackTrace();
+            return "error";
+        }
+        return "showUsers"; //返回结果
+    }
+
+
 
     @RequestMapping("/{page}")
     public String showPage(@PathVariable String page){

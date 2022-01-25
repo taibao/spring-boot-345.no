@@ -7,6 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.List;
+
 /*
 * 用户管理业务层
 */
@@ -23,6 +25,15 @@ public class UsersServiceImpl implements UsersService {
     @Transactional
     public void addUser(Users users){
         this.usersDao.insertUsers(users);
+    }
+
+    /*
+    * 查询全部用户
+    * @return
+    * */
+    @Override
+    public List<Users> findUsersAll() {
+        return this.usersDao.selectUserAll();
     }
 
 }
