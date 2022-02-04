@@ -113,7 +113,7 @@ public class UsersController {
         }catch(Exception e){
             return "error";
         }
-        return "redirect:/ok";
+        return "redirect:/user/findUserAll";
     }
 
     @RequestMapping("/{page}")
