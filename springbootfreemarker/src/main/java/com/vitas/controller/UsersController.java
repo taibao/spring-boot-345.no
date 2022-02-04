@@ -10,10 +10,7 @@ import org.elasticsearch.client.RestHighLevelClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.Mapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
 
 import javax.sql.DataSource;
 import java.io.IOException;
@@ -96,9 +93,11 @@ public class UsersController {
     /*
     * 更新用户的查询
     */
-    @GetMapping("/updateUser")
+    @PostMapping("/updateUser")
     public String updateUser(Users users){
         try{
+            System.out.println(users.getId());
+            System.out.println(users.getPassword());
             this.usersService.updateUsers(users);
         }catch(Exception e){
             return "error";

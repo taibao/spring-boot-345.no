@@ -51,7 +51,10 @@ public class UsersDaoImpl implements UsersDao {
     public Users findUserById(String id) {
         String sql = "select * from t_users where id = ? ";
         Users users = new Users();
-        this.jdbcTemplate.query(sql, new RowCallbackHandler() {
+        Object[] arr = new Object[]{id};
+
+        //sql预处理
+        this.jdbcTemplate.query(sql,arr, new RowCallbackHandler() {
             @Override
             public void processRow(ResultSet resultSet) throws SQLException {
                 users.setId(resultSet.getString("id"));
