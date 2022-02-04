@@ -24,7 +24,7 @@
         <td th:text="${u.password}"></td>
         <td th:text="${u.userage}"></td>
         <td>
-            <a th:href="@{/user/updateUser(id=${u.id})}">修改</a>
+            <a th:href="@{/user/preUpdateUser(id=${u.id})}">修改</a>
             <a th:href="@{/user/delUser(id=${u.id})}">删除</a>
         </td>
     </tr>

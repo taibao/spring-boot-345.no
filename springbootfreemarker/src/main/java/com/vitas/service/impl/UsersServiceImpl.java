@@ -36,4 +36,15 @@ public class UsersServiceImpl implements UsersService {
         return this.usersDao.selectUserAll();
     }
 
+    @Override
+    public Users findUserById(String id) {
+        return this.usersDao.findUserById(id);
+    }
+
+    @Override
+    @Transactional
+    public void updateUsers(Users users) {
+         this.usersDao.updateUsers(users);
+    }
+
 }

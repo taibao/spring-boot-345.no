@@ -25,7 +25,8 @@ import java.util.List;
 public class UsersController {
 
     @Autowired
-    private DataSource dataSource;
+    private
+    DataSource dataSource;
 
     @GetMapping("/showInfo")
     public String showInfo(){
@@ -82,7 +83,28 @@ public class UsersController {
         return "showUsers"; //返回结果
     }
 
+    /*
+     * 预更新用户的查询
+     */
+    @GetMapping("/preUpdateUser")
+    public String preUpdateUser(String id,Model model){
+        Users user = this.usersService.findUserById(id);
+        model.addAttribute("user",user);
+        return "preUpdateUser";
+    }
 
+    /*
+    * 更新用户的查询
+    */
+    @GetMapping("/updateUser")
+    public String updateUser(Users users){
+        try{
+            this.usersService.updateUsers(users);
+        }catch(Exception e){
+            return "error";
+        }
+        return "redirect:/ok";
+    }
 
     @RequestMapping("/{page}")
     public String showPage(@PathVariable String page){
