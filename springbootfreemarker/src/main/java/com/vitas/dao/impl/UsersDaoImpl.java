@@ -78,6 +78,16 @@ public class UsersDaoImpl implements UsersDao {
         this.jdbcTemplate.update(sql,users.getUsername(),users.getPassword(),users.getId());
     }
 
+    /*
+    * 删除用户
+    * */
+
+    @Override
+    public void delUsers(String id){
+        String sql = "delete from t_users where id= ?";
+        this.jdbcTemplate.update(sql,id);
+    }
+
 
 
 }

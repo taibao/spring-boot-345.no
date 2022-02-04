@@ -9,4 +9,5 @@ public interface UsersDao {
     List<Users> selectUserAll();
     Users findUserById(String id);
     void updateUsers(Users users);
+    void delUsers(String id);
 }

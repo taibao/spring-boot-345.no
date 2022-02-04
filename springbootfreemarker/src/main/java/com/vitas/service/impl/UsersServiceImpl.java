@@ -47,4 +47,9 @@ public class UsersServiceImpl implements UsersService {
          this.usersDao.updateUsers(users);
     }
 
+    @Override
+    public void delUsers(String id) {
+        this.usersDao.delUsers(id);
+    }
+
 }

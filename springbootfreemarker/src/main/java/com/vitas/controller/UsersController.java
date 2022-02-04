@@ -96,9 +96,20 @@ public class UsersController {
     @PostMapping("/updateUser")
     public String updateUser(Users users){
         try{
-            System.out.println(users.getId());
-            System.out.println(users.getPassword());
             this.usersService.updateUsers(users);
+        }catch(Exception e){
+            return "error";
+        }
+        return "redirect:/ok";
+    }
+
+    /*
+    * 删除用户
+    * */
+    @GetMapping("/delUser")
+    public String delUser(String id){
+        try{
+            this.usersService.delUsers(id);
         }catch(Exception e){
             return "error";
         }

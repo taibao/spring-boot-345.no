@@ -9,7 +9,5 @@ public interface UsersService {
     List<Users> findUsersAll();
     Users findUserById(String id);
     void updateUsers(Users users);
-
-
-
+    void delUsers(String id);
 }
