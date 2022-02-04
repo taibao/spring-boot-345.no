@@ -74,7 +74,7 @@ public class UsersDaoImpl implements UsersDao {
     * */
     @Override
     public void updateUsers(Users users) {
-        String sql = "update t_users set username = ? and password = ?  where id = ?";
+        String sql = "update t_users set username = ? , password = ?  where id = ?";
         this.jdbcTemplate.update(sql,users.getUsername(),users.getPassword(),users.getId());
     }
 
