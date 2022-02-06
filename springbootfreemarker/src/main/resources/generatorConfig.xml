@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+            <context id="testTables" targetRuntime="MyBatis3">
+                <commentGenerator>
+                    <!-- 是否自动去除自动生成的注释true: 是： false：否-->
+                    <property name="suppressAllComments" value="true" />
+                </commentGenerator>
+                <!-- 数据库连接的信息： 驱动类，连接地址， 用户名， 密码 -->
+                <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://localhost:3306/demo" userId="root" password="root">
+
+                </jdbcConnection>
+                <!-- 默认false ， 把JDBC DECIMAL 和NUMERIC 类解析未Integer， 为true时，将NUMERIC类型解析为java.math.BigDecimal -->
+
+                <javaTypeResolver>
+                    <property name="forceBigDecimals" value="false" />
+                </javaTypeResolver>
+
+                <!-- 数据库连接的信息： 驱动类，连接地址， 用户名， 密码 -->
+                <javaModelGenerator targetPackage="com.vitas.pojo" targetProject=".\src\main\java">
+                    <property name="enableSubPackages" value="false" />
+                    <property name="trlmStrings" value="true" />
+                </javaModelGenerator>
+
+                <sqlMapGenerator targetPackage="com.vitas.mapper" targetProject=".\src
+main\java">
+                    <property name="enableSubPackages" value="false" />
+                </sqlMapGenerator>
+
+                <javaClientGenerator type="XMLMAPPER" targetPackage="com.vitas.mapper" targetProject=".\src\main\java">
+                    <property name="enableSubPackages" value="false" />
+                </javaClientGenerator>
+                <!-- 指定数据库表 -->
+                <table schema="" tableName="users"></table>
+            </context>
+</generatorConfiguration>
