@@ -1,6 +1,8 @@
 package com.vitas.service.impl;
 
 import com.vitas.dao.UsersDao;
+import com.vitas.mapper.TUsersMapper;
+import com.vitas.pojo.TUsers;
 import com.vitas.pojo.Users;
 import com.vitas.service.UsersService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,7 +18,7 @@ import java.util.List;
 public class UsersServiceImpl implements UsersService {
     @Autowired
     private UsersDao usersDao;
-
+    private TUsersMapper UsersMapper;
     /**
         *添加用户
      * @param users
@@ -51,5 +53,14 @@ public class UsersServiceImpl implements UsersService {
     public void delUsers(String id) {
         this.usersDao.delUsers(id);
     }
+
+
+
+    //mybatis添加用户数据
+    @Override
+    public void addUser2(TUsers users) {
+        this.UsersMapper.insert(users);
+    }
+
 
 }

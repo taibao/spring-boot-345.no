@@ -10,7 +10,7 @@
                     <property name="suppressAllComments" value="true" />
                 </commentGenerator>
                 <!-- 数据库连接的信息： 驱动类，连接地址， 用户名， 密码 -->
-                <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://localhost:3306/demo" userId="root" password="root">
+                <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://localhost:3306/spring" userId="root" password="123123">
 
                 </jdbcConnection>
                 <!-- 默认false ， 把JDBC DECIMAL 和NUMERIC 类解析未Integer， 为true时，将NUMERIC类型解析为java.math.BigDecimal -->
@@ -20,20 +20,19 @@
                 </javaTypeResolver>
 
                 <!-- 数据库连接的信息： 驱动类，连接地址， 用户名， 密码 -->
-                <javaModelGenerator targetPackage="com.vitas.pojo" targetProject=".\src\main\java">
+                <javaModelGenerator targetPackage="com.vitas.pojo" targetProject="./src/main/java">
                     <property name="enableSubPackages" value="false" />
                     <property name="trlmStrings" value="true" />
                 </javaModelGenerator>
 
-                <sqlMapGenerator targetPackage="com.vitas.mapper" targetProject=".\src
-main\java">
+                <sqlMapGenerator targetPackage="com.vitas.mapper" targetProject="./src/main/java">
                     <property name="enableSubPackages" value="false" />
                 </sqlMapGenerator>
 
-                <javaClientGenerator type="XMLMAPPER" targetPackage="com.vitas.mapper" targetProject=".\src\main\java">
+                <javaClientGenerator type="XMLMAPPER" targetPackage="com.vitas.mapper" targetProject="./src/main/java">
                     <property name="enableSubPackages" value="false" />
                 </javaClientGenerator>
                 <!-- 指定数据库表 -->
-                <table schema="" tableName="users"></table>
+                <table schema="spring" tableName="t_users"></table>
             </context>
 </generatorConfiguration>

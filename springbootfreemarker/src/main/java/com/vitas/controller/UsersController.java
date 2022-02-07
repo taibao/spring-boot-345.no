@@ -1,5 +1,6 @@
 package com.vitas.controller;
 
+import com.vitas.pojo.TUsers;
 import com.vitas.pojo.Users;
 import com.vitas.service.UsersService;
 import com.vitas.utils.ESClient;
@@ -22,8 +23,8 @@ import java.util.List;
 public class UsersController {
 
     @Autowired
-    private
-    DataSource dataSource;
+    private DataSource dataSource;
+    private UsersService usersService;
 
     @GetMapping("/showInfo")
     public String showInfo(){
@@ -45,9 +46,6 @@ public class UsersController {
         return "userList";
     }
 
-
-    @Autowired
-    private UsersService usersService;
     /**
      *添加用户
      * @return
@@ -115,6 +113,20 @@ public class UsersController {
         }
         return "redirect:/user/findUserAll";
     }
+
+    //通过mybatis添加用户
+    @PostMapping("/addUser2")
+    public String addUsers2(TUsers users){
+        try{
+            this.usersService.addUser2(users);
+        }catch(Exception e){
+            e.printStackTrace();
+        }
+        return "redirect:/ok";
+    }
+
+
+
 
     @RequestMapping("/{page}")
     public String showPage(@PathVariable String page){
