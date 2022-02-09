@@ -22,10 +22,10 @@
         <td th:text="${u.id}"></td>
         <td th:text="${u.username}"></td>
         <td th:text="${u.password}"></td>
-        <td th:text="${u.userage}"></td>
+        <td th:text="${u.age}"></td>
         <td>
             <a th:href="@{/user/preUpdateUser2(id=${u.id})}">修改</a>
-            <a th:href="@{/user/delUser(id=${u.id})}">删除</a>
+            <a th:href="@{/user/delUser2(id=${u.id})}">删除</a>
         </td>
     </tr>
 </table>

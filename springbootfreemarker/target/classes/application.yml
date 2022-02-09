@@ -5,3 +5,9 @@ spring:
         username: root
         password: root
         type: com.alibaba.druid.pool.DruidDataSource
+
+mybatis:
+#扫描classpath中的mapper目录下的映射配置文件，针对于映射配置文件放到了resources目录下
+    mapper-locations: classpath:/mapper/*.xml
+    #定义包别名， 使用pojo时可以直接使用pojo的类型不用加包名
+    type-aliases-package: com.vitas.pojo
