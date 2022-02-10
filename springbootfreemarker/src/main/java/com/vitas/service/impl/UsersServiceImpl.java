@@ -1,6 +1,7 @@
 package com.vitas.service.impl;
 
 import com.vitas.dao.UsersDao;
+import com.vitas.dao.impl.UsersDaoImpl;
 import com.vitas.mapper.TUsersMapper;
 import com.vitas.pojo.TUsers;
 import com.vitas.pojo.TUsersExample;
@@ -88,6 +89,12 @@ public class UsersServiceImpl implements UsersService {
     @Override
     public void delUsers2(Integer id) {
         this.usersMapper.deleteByPrimaryKey(id);
+    }
+
+    //单元测试
+    public void addUserTest(){
+        UsersDaoImpl usersDaoImpl = new UsersDaoImpl();
+        usersDaoImpl.insertTest();
     }
 
 

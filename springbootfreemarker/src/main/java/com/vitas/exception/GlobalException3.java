@@ -14,6 +14,8 @@ import org.springframework.web.servlet.handler.SimpleMappingExceptionResolver;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.validation.ConstraintViolation;
+import javax.validation.ConstraintViolationException;
 import java.util.Properties;
 
 @Configuration
@@ -31,7 +33,11 @@ public class GlobalException3 implements HandlerExceptionResolver {
             mv.setViewName("error");
         }
 
-        mv.addObject("err", ex.toString());
+        if(ex instanceof ConstraintViolationException){
+            mv.setViewName("findUser");
+        }
+
+        mv.addObject("err", ex.getMessage().split(":")[1]);
 
         return mv;
     }
