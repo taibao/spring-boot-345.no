@@ -1,4 +1,4 @@
-package com.upload.controller;
+package com.vitas.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.Mapping;

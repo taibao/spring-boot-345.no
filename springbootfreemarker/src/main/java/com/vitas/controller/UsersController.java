@@ -1,16 +1,20 @@
 package com.vitas.controller;
 
+import com.vitas.pojo.TUsers;
 import com.vitas.pojo.Users;
 import com.vitas.service.UsersService;
+import com.vitas.utils.ESClient;
+import org.elasticsearch.action.admin.indices.delete.DeleteIndexRequest;
+import org.elasticsearch.action.support.master.AcknowledgedResponse;
+import org.elasticsearch.client.RequestOptions;
+import org.elasticsearch.client.RestHighLevelClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.Mapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
 
 import javax.sql.DataSource;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -20,6 +24,7 @@ public class UsersController {
 
     @Autowired
     private DataSource dataSource;
+    private UsersService usersService;
 
     @GetMapping("/showInfo")
     public String showInfo(){
@@ -41,9 +46,6 @@ public class UsersController {
         return "userList";
     }
 
-
-    @Autowired
-    private UsersService usersService;
     /**
      *添加用户
      * @return
@@ -58,6 +60,72 @@ public class UsersController {
         }
         return "redirect:/ok"; //跳转页面
     }
+
+    /**
+     * 查找用户列表
+     * @return
+     */
+    @GetMapping("/findUserAll")
+    public String findUserAll(Model model){
+        List<Users> list = null;
+        try{
+            list =  this.usersService.findUsersAll();
+            model.addAttribute("list",list);
+        }catch(Exception e){
+            e.printStackTrace();
+            return "error";
+        }
+        return "showUsers"; //返回结果
+    }
+
+    /*
+     * 预更新用户的查询
+     */
+    @GetMapping("/preUpdateUser")
+    public String preUpdateUser(String id,Model model){
+        Users user = this.usersService.findUserById(id);
+        model.addAttribute("user",user);
+        return "preUpdateUser";
+    }
+
+    /*
+    * 更新用户的查询
+    */
+    @PostMapping("/updateUser")
+    public String updateUser(Users users){
+        try{
+            this.usersService.updateUsers(users);
+        }catch(Exception e){
+            return "error";
+        }
+        return "redirect:/ok";
+    }
+
+    /*
+    * 删除用户
+    * */
+    @GetMapping("/delUser")
+    public String delUser(String id){
+        try{
+            this.usersService.delUsers(id);
+        }catch(Exception e){
+            return "error";
+        }
+        return "redirect:/user/findUserAll";
+    }
+
+    //通过mybatis添加用户
+    @PostMapping("/addUser2")
+    public String addUsers2(TUsers users){
+        try{
+            this.usersService.addUser2(users);
+        }catch(Exception e){
+            e.printStackTrace();
+        }
+        return "redirect:/ok";
+    }
+
+
 
 
     @RequestMapping("/{page}")
