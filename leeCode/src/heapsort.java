@@ -1,6 +1,6 @@
 public class heapsort {
     public static void main(String args[]){
-        int[] arr = {1,2,3,4,5};
+        int[] arr = {1,2,3,4,5,0};
         heapsort(arr);
         dd_arr(arr);
     }

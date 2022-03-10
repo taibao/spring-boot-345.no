@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-boot-345.no.iml" filepath="$PROJECT_DIR$/.idea/spring-boot-345.no.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-boot-345.no.iml" filepath="$PROJECT_DIR$/spring-boot-345.no.iml" />
     </modules>
   </component>
 </project>

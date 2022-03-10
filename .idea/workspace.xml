@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="803a1b44-a865-499c-a765-874e57a01adc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootdemo3" beforeDir="false" afterPath="$PROJECT_DIR$/springbootdemo3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootdemo3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springbootdemo3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootfreemarker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springbootfreemarker/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="803a1b44-a865-499c-a765-874e57a01adc" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,12 +9,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
-    <option name="y" value="124" />
-    <option name="width" value="1283" />
-    <option name="height" value="918" />
   </component>
   <component name="ProjectId" id="23Vys6OmoKjGYUyNeq8SwGgjAP4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -53,26 +41,25 @@
       <option name="presentableId" value="Default" />
       <updated>1641708488318</updated>
       <workItem from="1641833756705" duration="53000" />
+      <workItem from="1646950653728" duration="138000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>15</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="WindowStateProjectService">
+    <state x="297" y="108" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1646950715945">
+      <screen x="0" y="25" width="1680" height="951" />
+    </state>
+    <state x="297" y="108" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1680.951@0.25.1680.951" timestamp="1646950715945" />
+    <state x="682" y="342" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1646950701246">
+      <screen x="0" y="25" width="1680" height="951" />
+    </state>
+    <state x="682" y="342" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.25.1680.951@0.25.1680.951" timestamp="1646950701246" />
+    <state x="420" y="108" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor" timestamp="1646950697485">
+      <screen x="0" y="25" width="1680" height="951" />
+    </state>
+    <state x="420" y="108" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.25.1680.951@0.25.1680.951" timestamp="1646950697485" />
   </component>
 </project>
