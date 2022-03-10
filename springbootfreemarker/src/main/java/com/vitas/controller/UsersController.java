@@ -196,7 +196,6 @@ public class UsersController {
         return "redirect:/user/findUserAll2";
     }
 
-
     @GetMapping("nullException")
     public String nullException(){
         String str = null;
@@ -214,4 +213,6 @@ public class UsersController {
     public String showPage(@PathVariable String page){
         return page;
     }
+
+
 }
