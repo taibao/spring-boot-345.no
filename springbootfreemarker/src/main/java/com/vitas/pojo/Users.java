@@ -1,9 +1,24 @@
 package com.vitas.pojo;
 
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
+
 public class Users {
+    //使用注解验证数据类型
+    /*
+        @NotNull 对基本数据类型的对象类型做非空校验
+        @NotBlank 对字符串类型做非空校验
+        @NotEmpty 对集合类型做非空校验
+    */
+
+
+    @NotNull(message="用户ID不能为空")
     private String id;
+    @NotBlank(message="用户名称不能为空")
     private String username;
 
+    @NotBlank(message="用户密码不能为空")
     public String getPassword() {
         return password;
     }

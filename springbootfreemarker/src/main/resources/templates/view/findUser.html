@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
@@ -9,8 +9,10 @@
 </head>
 <body>
 
-<h1>出错了，请与管理员联系
-    <span th:text="${err}" />
-
+<form th:action="@{/user/findUser}" method="post">
+    <input type="text" name="username">
+    <input type="submit" value="搜索"><br>
+    <span style="color: red;" th:text="${err}" ></span>
+</form>
 </body>
 </html>

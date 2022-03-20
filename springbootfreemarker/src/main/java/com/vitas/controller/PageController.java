@@ -7,10 +7,7 @@ package com.vitas.controller;
 import com.vitas.pojo.Users;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.Mapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.*;
@@ -85,7 +82,7 @@ public class PageController {
     }
 
     @RequestMapping("/{page}")
-    public String showPage(@PathVariable String page){
+    public String showPage(@PathVariable String page,@ModelAttribute("user") Users users){
         return page;
     }
 

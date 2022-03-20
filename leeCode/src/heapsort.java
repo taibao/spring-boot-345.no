@@ -15,7 +15,7 @@ public class heapsort {
         int heapSize = arr.length;
         swap(arr,0,--heapSize);
         while(heapSize > 0){
-            heapify(arr,0,heapSize);//O(logN)
+            heapify(arr,0,heapSize);//o(logN)
             swap(arr,0,--heapSize); //O(1)
         }
     }

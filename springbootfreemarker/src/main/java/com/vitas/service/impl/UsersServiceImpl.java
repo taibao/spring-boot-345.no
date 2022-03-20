@@ -1,8 +1,10 @@
 package com.vitas.service.impl;
 
 import com.vitas.dao.UsersDao;
+import com.vitas.dao.impl.UsersDaoImpl;
 import com.vitas.mapper.TUsersMapper;
 import com.vitas.pojo.TUsers;
+import com.vitas.pojo.TUsersExample;
 import com.vitas.pojo.Users;
 import com.vitas.service.UsersService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,7 +20,9 @@ import java.util.List;
 public class UsersServiceImpl implements UsersService {
     @Autowired
     private UsersDao usersDao;
-    private TUsersMapper UsersMapper;
+
+
+
     /**
         *添加用户
      * @param users
@@ -55,11 +59,42 @@ public class UsersServiceImpl implements UsersService {
     }
 
 
+    @Autowired
+    private TUsersMapper usersMapper;
 
     //mybatis添加用户数据
     @Override
+    @Transactional
     public void addUser2(TUsers users) {
-        this.UsersMapper.insert(users);
+        this.usersMapper.insert(users);
+    }
+
+    /*
+    * 查询全部用户
+    * */
+    @Override
+    public List<TUsers> findUsersAll2() {
+        TUsersExample example = new TUsersExample();
+        return this.usersMapper.selectByExample(example);
+    }
+
+    /*
+    * mybatis 预更新用户信息
+    * */
+    @Override
+    public TUsers preUpdateUser2(Integer id){
+        return this.usersMapper.selectByPrimaryKey(id);
+    }
+
+    @Override
+    public void delUsers2(Integer id) {
+        this.usersMapper.deleteByPrimaryKey(id);
+    }
+
+    //单元测试
+    public void addUserTest(){
+        UsersDaoImpl usersDaoImpl = new UsersDaoImpl();
+        usersDaoImpl.insertTest();
     }
 
 

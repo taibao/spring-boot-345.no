@@ -1,12 +1,17 @@
 package com.vitas.pojo;
 
+import org.hibernate.validator.constraints.Length;
+
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
 import java.util.Date;
 
 public class TUsers {
     private Integer id;
-
+    @NotBlank(message="{username.notnull}")
     private String username;
-
+    @NotBlank(message="{password.notnull}")
+    @Length(min=3, max=8,message="长度必须在3，8之间")
     private String password;
 
     private Integer age;

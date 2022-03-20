@@ -9,9 +9,9 @@
 </head>
 <body>
 
-<form th:action="@{/user/addUser}" method="post">
-    <input type="text" name="username"><br>
-    <input type="text" name="password"><br>
+<form th:action="@{/user/addUser2}" method="post">
+    <input type="text" name="username"><span th:errors="${user.username}" /> <br>
+    <input type="text" name="password"><span th:errors="${user.password}" /> <br>
     <input type="submit" value="注册"><br>
 </form>
 </body>

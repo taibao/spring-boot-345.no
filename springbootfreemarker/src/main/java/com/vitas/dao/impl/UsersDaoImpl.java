@@ -88,6 +88,9 @@ public class UsersDaoImpl implements UsersDao {
         this.jdbcTemplate.update(sql,id);
     }
 
-
+    //单元测试用
+    public void insertTest(){
+        System.out.println("insert into users values.....");
+    }
 
 }

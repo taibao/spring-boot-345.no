@@ -14,5 +14,8 @@ public interface UsersService {
 
     //添加mybatis
     void addUser2(TUsers users);
+    List<TUsers> findUsersAll2();
+    TUsers preUpdateUser2(Integer id);
+    void delUsers2(Integer id);
 
 }
