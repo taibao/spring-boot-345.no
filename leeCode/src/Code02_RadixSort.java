@@ -4,7 +4,7 @@ public class Code02_RadixSort {
         if(arr == null || arr.length < 2){
             return;
         }
-        radixSort(arr,0,arr.length-1,maxbits(arr));
+//        radixSort(arr,0,arr.length-1,maxbits(arr));
     }
 
 }
