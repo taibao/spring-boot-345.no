@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class sort {
     public static void main(String[] args){
-       int[] arr = generateRandomArray(5,10);
+//       int[] arr = generateRandomArray(5,10);
 //       dd(arr);
     //   int sum = digui(4,3); //递归求阶乘
      //   System.out.println(sum);
@@ -42,9 +42,26 @@ public class sort {
 //        int e2 = 6;
 //        System.out.println(e1&e2);
 
-        int[] arr1 = {3,3,2,3,1,1,1,3,4,1,1,1};
-        printOddTimesNum2(arr1);
+//        int[] arr1 = {3,3,2,3,1,1,1,3,4,1,1,1};
+//        printOddTimesNum2(arr1);
+
+        int[] arr = {1,2,13,5,6};
+        int max = process(arr,0,arr.length-1);
+        System.out.println(max);
     }
+
+    //获取最大值递归版
+
+    public static int process(int[] arr,int L,int R){
+        if(L==R){
+            return arr[L];
+        }
+        int mid = L+((R-L)>>1);
+        int left =  process(arr,L,mid);
+        int right = process(arr,mid+1,R);
+        return Math.max(left,right);
+    }
+
 
     //寻找一个数组中出现奇数次数的数 （有两个数a，b出现奇数次）
     public static void printOddTimesNum2(int[] arr){
