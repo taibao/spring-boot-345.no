@@ -16,9 +16,27 @@ public class sort {
 //        bubbleSort(arr);
 //        insertSort(arr);
         arr = new int[]{1,2,3,4,5};
-        int offset = bsfind(arr,5);
+//        int offset = bsfind(arr,5);
+        int offset = nearestIndex(arr,90);
         System.out.println(offset);
 //        dd(arr);
+    }
+
+    //查找最左位置
+    public static int nearestIndex(int[] arr, int value){
+        int L =0;
+        int R=arr.length-1;
+        int index=-1;
+        while(L<=R){
+            int mid = (L+R)/2;
+            if(arr[mid] >= value){
+                index=mid;
+                R = mid -1;
+            }else{
+                L=mid+1;
+            }
+        }
+        return index;
     }
 
     //二分查找
