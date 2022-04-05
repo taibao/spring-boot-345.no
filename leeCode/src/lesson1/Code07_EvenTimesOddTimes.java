@@ -15,7 +15,7 @@ public class Code07_EvenTimesOddTimes {
 		for (int curNum : arr) {
 			eO ^= curNum;
 		}
-		int rightOne = eO & (~eO + 1);
+		int rightOne = eO & ( ~eO + 1);
 		for (int cur : arr) {
 			if ((cur & rightOne) != 0) {
 				eOhasOne ^= cur;

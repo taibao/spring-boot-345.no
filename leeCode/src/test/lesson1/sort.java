@@ -15,11 +15,63 @@ public class sort {
 //        comparator(arr);
 //        bubbleSort(arr);
 //        insertSort(arr);
-        arr = new int[]{1,2,3,4,5};
+//        arr = new int[]{1,2,3,4,5};
 //        int offset = bsfind(arr,5);
-        int offset = nearestIndex(arr,90);
-        System.out.println(offset);
+//        int offset = nearestIndex(arr,90);
+//        System.out.println(offset);
 //        dd(arr);
+
+        //使用异或互换值
+//        int a = 5;
+//        int b = 7;
+//        a = a^b;
+//        b = a^b;
+//        a = a^b;
+//
+//        System.out.println(a);
+//        System.out.println(b);
+
+        //输出奇数次出现的数
+//        int[] arr1 = {3,3,2,3,1,1,1,3,1,1,1};
+//        printOddTimesNum1(arr1);
+
+//        int e0 = 38;
+//        System.out.println(e0 & (~e0 +1));
+
+//        int e1 = 12;
+//        int e2 = 6;
+//        System.out.println(e1&e2);
+
+        int[] arr1 = {3,3,2,3,1,1,1,3,4,1,1,1};
+        printOddTimesNum2(arr1);
+    }
+
+    //寻找一个数组中出现奇数次数的数 （有两个数a，b出现奇数次）
+    public static void printOddTimesNum2(int[] arr){
+        int e0 =0 , eOhasOne=0;
+        //求a&b, a,b进制位里至少有一位是1，一位是0
+        for(int curNum : arr){
+            e0 ^= curNum; //e0=a^b
+        }
+        //取e0最右边非0的值
+        int rightOne = e0 & (~e0+1); //找到a^b中最右的非0数
+        for(int cur:arr){
+            //只与该位也为1的数异或, 从而得到该位为1的奇数值
+            if((cur&rightOne)!=0){
+                eOhasOne ^= cur;
+            }
+        }
+        System.out.println("两个奇数值分别为："+eOhasOne + "和"+ (e0^eOhasOne));
+    }
+
+
+    //统计奇数次 只有一个数出现奇数次
+    public static void printOddTimesNum1(int[] arr){
+        int e0 = 0;
+        for(int cur : arr){
+            e0 ^= cur; //偶数次出现的数，因为成双出现而抵消
+        }
+        System.out.println(e0);
     }
 
     //查找最左位置

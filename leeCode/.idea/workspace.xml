@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0956bda-6ead-4253-a934-6330210d1197" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson1/Code07_EvenTimesOddTimes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson1/Code07_EvenTimesOddTimes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/lesson1/sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lesson1/sort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,7 +16,7 @@
     <splitter split-orientation="horizontal" split-proportion="0.4661088">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/lesson1/Code05_BSNearLeft.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="95">
@@ -34,11 +34,20 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/lesson1/Code07_EvenTimesOddTimes.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="285">
-                  <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+                <state relative-caret-position="399">
+                  <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/lesson1/Code08_GetMax.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="38">
+                  <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
                 </state>
               </provider>
             </entry>
@@ -59,8 +68,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/lesson1/sort.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="152">
-                  <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+                <state relative-caret-position="171">
+                  <caret line="45" column="32" lean-forward="true" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
                   <folding>
                     <element signature="e#2188#2189#0" expanded="true" />
                     <element signature="e#2216#2217#0" expanded="true" />
@@ -96,15 +105,16 @@
         <option value="$PROJECT_DIR$/src/heapsort.java" />
         <option value="$PROJECT_DIR$/src/dui.java" />
         <option value="$PROJECT_DIR$/src/test/sort.java" />
+        <option value="$PROJECT_DIR$/src/lesson1/Code07_EvenTimesOddTimes.java" />
         <option value="$PROJECT_DIR$/src/test/lesson1/sort.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="311" />
-    <option name="y" value="163" />
-    <option name="width" value="1587" />
-    <option name="height" value="912" />
+    <option name="x" value="222" />
+    <option name="y" value="62" />
+    <option name="width" value="1621" />
+    <option name="height" value="928" />
   </component>
   <component name="ProjectId" id="26DGYmkkV1gRiFiaCRPR1p3Cnrz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -238,10 +248,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="311" y="163" width="1587" height="912" extended-state="0" />
+    <frame x="222" y="62" width="1621" height="928" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21938442" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21460602" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -250,12 +260,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25930682" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2955975" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.23670886" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2028666" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32936078" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.42686892" />
@@ -381,20 +391,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson1/Code06_BSAwesome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson1/Code07_EvenTimesOddTimes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lesson1/Code09_FindOneLessValueIndex.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -416,10 +412,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson1/Code06_BSAwesome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson1/Code08_GetMax.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson1/Code07_EvenTimesOddTimes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/lesson1/sort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="171">
+          <caret line="45" column="32" lean-forward="true" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
           <folding>
             <element signature="e#2188#2189#0" expanded="true" />
             <element signature="e#2216#2217#0" expanded="true" />
