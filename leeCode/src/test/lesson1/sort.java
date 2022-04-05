@@ -14,9 +14,37 @@ public class sort {
 
 //        comparator(arr);
 //        bubbleSort(arr);
-        insertSort(arr);
-        dd(arr);
+//        insertSort(arr);
+        arr = new int[]{1,2,3,4,5};
+        int offset = bsfind(arr,5);
+        System.out.println(offset);
+//        dd(arr);
     }
+
+    //二分查找
+    public static int bsfind(int[] arr, int x){
+        if(arr==null || arr.length==0){
+            return -1;
+        }
+        int l=0;
+        int r=arr.length-1;
+        while(l<r){
+            int mid = ((r+l)>>1);
+            if(arr[mid] == x){
+                return mid;
+            }else if(arr[mid] > x){
+                r = mid -1;
+            }else{
+                l = mid +1 ;
+            }
+        }
+        if(arr[l]==x){
+            return l;
+        }
+        return -1;
+    }
+
+
 
     //插入排序
     public static void insertSort(int[] arr){
