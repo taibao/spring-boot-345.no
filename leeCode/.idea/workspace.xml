@@ -2,63 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0956bda-6ead-4253-a934-6330210d1197" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson1/Code09_FindOneLessValueIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson1/Code09_FindOneLessValueIndex.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/lesson1/sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lesson1/sort.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5750395">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/lesson1/Code08_GetMax.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="228">
-                  <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-                  <folding>
-                    <element signature="e#85#86#0" expanded="true" />
-                    <element signature="e#130#131#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/lesson1/Code09_FindOneLessValueIndex.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="171">
-                  <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/test/lesson1/sort.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="209">
-                  <caret line="47" column="32" lean-forward="true" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
-                  <folding>
-                    <element signature="e#2188#2189#0" expanded="true" />
-                    <element signature="e#2216#2217#0" expanded="true" />
-                    <element signature="e#3900#3901#0" expanded="true" />
-                    <element signature="e#3960#3961#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -75,70 +27,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/heapsort.java" />
-        <option value="$PROJECT_DIR$/src/dui.java" />
-        <option value="$PROJECT_DIR$/src/test/sort.java" />
-        <option value="$PROJECT_DIR$/src/lesson1/Code07_EvenTimesOddTimes.java" />
-        <option value="$PROJECT_DIR$/src/test/lesson1/sort.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="120" />
-    <option name="y" value="95" />
-    <option name="width" value="1621" />
-    <option name="height" value="928" />
-  </component>
   <component name="ProjectId" id="26DGYmkkV1gRiFiaCRPR1p3Cnrz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="leeCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leeCode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leeCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leeCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leeCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leeCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leeCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leeCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leeCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leeCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson1" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -160,19 +51,7 @@
       <recent name="N:\spring-boot-345.no\leeCode\src\lesson28" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.Code09_FindOneLessValueIndex">
+  <component name="RunManager" selected="Application.sort">
     <configuration name="Code09_FindOneLessValueIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson1.Code09_FindOneLessValueIndex" />
       <module name="leeCode" />
@@ -215,8 +94,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Code09_FindOneLessValueIndex" />
         <item itemvalue="Application.sort" />
+        <item itemvalue="Application.Code09_FindOneLessValueIndex" />
         <item itemvalue="Application.dui" />
         <item itemvalue="Application.heapsort" />
       </list>
@@ -234,212 +113,39 @@
       <updated>1646144934812</updated>
       <workItem from="1646950794165" duration="4178000" />
       <workItem from="1647170846595" duration="1957000" />
+      <workItem from="1649381514995" duration="4143000" />
     </task>
     <servers />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="66" y="112" width="1621" height="928" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18898143" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2955975" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.20251572" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32936078" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.42686892" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="729" y="373" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1646950815930">
-      <screen x="0" y="25" width="1680" height="951" />
+    <state x="729" y="381" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1649300074952">
+      <screen x="0" y="25" width="1680" height="972" />
     </state>
     <state x="729" y="373" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.25.1680.951@0.25.1680.951" timestamp="1646950815930" />
-    <state width="1834" height="393" key="GridCell.Tab.0.bottom" timestamp="1646961957003">
-      <screen x="1440" y="-350" width="2560" height="1415" />
+    <state x="729" y="381" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.25.1680.972@0.25.1680.972" timestamp="1649300074952" />
+    <state width="1594" height="223" key="GridCell.Tab.0.bottom" timestamp="1649386670511">
+      <screen x="0" y="25" width="1680" height="951" />
     </state>
     <state width="1834" height="393" key="GridCell.Tab.0.bottom/0.25.1440.801/1440.-350.2560.1415@1440.-350.2560.1415" timestamp="1646961957003" />
-    <state width="982" height="219" key="GridCell.Tab.0.bottom/0.25.1680.951@0.25.1680.951" timestamp="1646950856287" />
-    <state width="1834" height="393" key="GridCell.Tab.0.center" timestamp="1646961957002">
-      <screen x="1440" y="-350" width="2560" height="1415" />
+    <state width="1594" height="223" key="GridCell.Tab.0.bottom/0.25.1680.951@0.25.1680.951" timestamp="1649386670511" />
+    <state width="1594" height="223" key="GridCell.Tab.0.center" timestamp="1649386670509">
+      <screen x="0" y="25" width="1680" height="951" />
     </state>
     <state width="1834" height="393" key="GridCell.Tab.0.center/0.25.1440.801/1440.-350.2560.1415@1440.-350.2560.1415" timestamp="1646961957002" />
-    <state width="982" height="219" key="GridCell.Tab.0.center/0.25.1680.951@0.25.1680.951" timestamp="1646950856286" />
-    <state width="1834" height="393" key="GridCell.Tab.0.left" timestamp="1646961957001">
-      <screen x="1440" y="-350" width="2560" height="1415" />
+    <state width="1594" height="223" key="GridCell.Tab.0.center/0.25.1680.951@0.25.1680.951" timestamp="1649386670509" />
+    <state width="1594" height="223" key="GridCell.Tab.0.left" timestamp="1649386670508">
+      <screen x="0" y="25" width="1680" height="951" />
     </state>
     <state width="1834" height="393" key="GridCell.Tab.0.left/0.25.1440.801/1440.-350.2560.1415@1440.-350.2560.1415" timestamp="1646961957001" />
-    <state width="982" height="219" key="GridCell.Tab.0.left/0.25.1680.951@0.25.1680.951" timestamp="1646950856285" />
-    <state width="1834" height="393" key="GridCell.Tab.0.right" timestamp="1646961957002">
-      <screen x="1440" y="-350" width="2560" height="1415" />
+    <state width="1594" height="223" key="GridCell.Tab.0.left/0.25.1680.951@0.25.1680.951" timestamp="1649386670508" />
+    <state width="1594" height="223" key="GridCell.Tab.0.right" timestamp="1649386670511">
+      <screen x="0" y="25" width="1680" height="951" />
     </state>
     <state width="1834" height="393" key="GridCell.Tab.0.right/0.25.1440.801/1440.-350.2560.1415@1440.-350.2560.1415" timestamp="1646961957002" />
-    <state width="982" height="219" key="GridCell.Tab.0.right/0.25.1680.951@0.25.1680.951" timestamp="1646950856286" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/leeCode.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/heapsort.java" />
-    <entry file="file://$PROJECT_DIR$/src/dui.java" />
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-228">
-          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-          <folding>
-            <element signature="n#component#0;n#project#0;n#!!top" />
-            <element signature="n#component#20;n#project#0;n#!!top" />
-            <element signature="n#component#21;n#project#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Code02_RadixSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Code04_SortArrayDistanceLessK.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/jdk/lib/src.zip!/java.base/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="806" column="31" lean-forward="true" selection-start-line="806" selection-start-column="31" selection-end-line="806" selection-end-column="31" />
-          <folding>
-            <element signature="e#33346#33347#0" expanded="true" />
-            <element signature="e#33431#33432#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/jdk/lib/src.zip!/java.base/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="81" column="67" lean-forward="true" selection-start-line="81" selection-start-column="67" selection-end-line="81" selection-end-column="67" />
-          <folding>
-            <element signature="e#3052#3053#0" expanded="true" />
-            <element signature="e#3110#3111#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson1/Code01_SelectionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="83" column="30" lean-forward="true" selection-start-line="83" selection-start-column="30" selection-end-line="83" selection-end-column="30" />
-          <folding>
-            <element signature="e#554#555#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson1/Code03_InsertionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson1/Code02_BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson1/Code09_FindOneLessValueIndex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson1/Code04_BSExist.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson1/Code07_EvenTimesOddTimes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="26" column="44" lean-forward="true" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson1/Code06_BSAwesome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson1/Code05_BSNearLeft.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson1/Code08_GetMax.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-          <folding>
-            <element signature="e#85#86#0" expanded="true" />
-            <element signature="e#130#131#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/lesson1/sort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="47" column="32" lean-forward="true" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
-          <folding>
-            <element signature="e#2188#2189#0" expanded="true" />
-            <element signature="e#2216#2217#0" expanded="true" />
-            <element signature="e#3900#3901#0" expanded="true" />
-            <element signature="e#3960#3961#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <state width="1594" height="223" key="GridCell.Tab.0.right/0.25.1680.951@0.25.1680.951" timestamp="1649386670511" />
   </component>
   <component name="masterDetails">
     <states>

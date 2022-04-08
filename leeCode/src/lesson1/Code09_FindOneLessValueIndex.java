@@ -2,6 +2,7 @@ package lesson1;
 
 public class Code09_FindOneLessValueIndex {
 
+	//求解局部最小值， 对于无序数组arr， 相邻数一定不相等，只求出一个局部最小值就可以了
 	public static int getLessIndex(int[] arr) {
 		if (arr == null || arr.length == 0) {
 			return -1; // no exist
