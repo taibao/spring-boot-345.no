@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0956bda-6ead-4253-a934-6330210d1197" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/lesson2/netherlandsFlag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/lesson2/quicksort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson2/Code05_NetherlandsFlag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson2/Code05_NetherlandsFlag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson2/Code06_QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson2/Code06_QuickSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +53,7 @@
       <recent name="N:\spring-boot-345.no\leeCode\src\lesson28" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.netherlandsFlag">
+  <component name="RunManager" selected="Application.quicksort">
     <configuration name="heapsort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.lesson2.heapsort" />
       <module name="leeCode" />
@@ -69,6 +69,19 @@
     </configuration>
     <configuration name="netherlandsFlag" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.lesson2.netherlandsFlag" />
+      <module name="leeCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.lesson2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="quicksort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.lesson2.quicksort" />
       <module name="leeCode" />
       <extension name="coverage">
         <pattern>
@@ -106,26 +119,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.lesson1.sort" />
-      <module name="leeCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.lesson1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.quicksort" />
         <item itemvalue="Application.netherlandsFlag" />
         <item itemvalue="Application.heapsort" />
         <item itemvalue="Application.smallSum" />
         <item itemvalue="Application.sort (1)" />
-        <item itemvalue="Application.sort" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +141,7 @@
       <updated>1646144934812</updated>
       <workItem from="1646950794165" duration="4178000" />
       <workItem from="1647170846595" duration="1957000" />
-      <workItem from="1649381514995" duration="36228000" />
+      <workItem from="1649381514995" duration="39502000" />
     </task>
     <servers />
   </component>
@@ -154,26 +154,26 @@
     </state>
     <state x="729" y="373" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.25.1680.951@0.25.1680.951" timestamp="1646950815930" />
     <state x="729" y="381" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.25.1680.972@0.25.1680.972" timestamp="1649300074952" />
-    <state width="1480" height="222" key="GridCell.Tab.0.bottom" timestamp="1649517668510">
+    <state width="1588" height="222" key="GridCell.Tab.0.bottom" timestamp="1649521000053">
       <screen x="0" y="25" width="1680" height="951" />
     </state>
     <state width="1834" height="393" key="GridCell.Tab.0.bottom/0.25.1440.801/1440.-350.2560.1415@1440.-350.2560.1415" timestamp="1646961957003" />
-    <state width="1480" height="222" key="GridCell.Tab.0.bottom/0.25.1680.951@0.25.1680.951" timestamp="1649517668510" />
-    <state width="1480" height="222" key="GridCell.Tab.0.center" timestamp="1649517668509">
+    <state width="1588" height="222" key="GridCell.Tab.0.bottom/0.25.1680.951@0.25.1680.951" timestamp="1649521000053" />
+    <state width="1588" height="222" key="GridCell.Tab.0.center" timestamp="1649521000051">
       <screen x="0" y="25" width="1680" height="951" />
     </state>
     <state width="1834" height="393" key="GridCell.Tab.0.center/0.25.1440.801/1440.-350.2560.1415@1440.-350.2560.1415" timestamp="1646961957002" />
-    <state width="1480" height="222" key="GridCell.Tab.0.center/0.25.1680.951@0.25.1680.951" timestamp="1649517668509" />
-    <state width="1480" height="222" key="GridCell.Tab.0.left" timestamp="1649517668509">
+    <state width="1588" height="222" key="GridCell.Tab.0.center/0.25.1680.951@0.25.1680.951" timestamp="1649521000051" />
+    <state width="1588" height="222" key="GridCell.Tab.0.left" timestamp="1649521000050">
       <screen x="0" y="25" width="1680" height="951" />
     </state>
     <state width="1834" height="393" key="GridCell.Tab.0.left/0.25.1440.801/1440.-350.2560.1415@1440.-350.2560.1415" timestamp="1646961957001" />
-    <state width="1480" height="222" key="GridCell.Tab.0.left/0.25.1680.951@0.25.1680.951" timestamp="1649517668509" />
-    <state width="1480" height="222" key="GridCell.Tab.0.right" timestamp="1649517668510">
+    <state width="1588" height="222" key="GridCell.Tab.0.left/0.25.1680.951@0.25.1680.951" timestamp="1649521000050" />
+    <state width="1588" height="222" key="GridCell.Tab.0.right" timestamp="1649521000052">
       <screen x="0" y="25" width="1680" height="951" />
     </state>
     <state width="1834" height="393" key="GridCell.Tab.0.right/0.25.1440.801/1440.-350.2560.1415@1440.-350.2560.1415" timestamp="1646961957002" />
-    <state width="1480" height="222" key="GridCell.Tab.0.right/0.25.1680.951@0.25.1680.951" timestamp="1649517668510" />
+    <state width="1588" height="222" key="GridCell.Tab.0.right/0.25.1680.951@0.25.1680.951" timestamp="1649521000052" />
   </component>
   <component name="masterDetails">
     <states>

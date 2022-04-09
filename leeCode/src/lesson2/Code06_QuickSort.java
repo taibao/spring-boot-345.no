@@ -13,8 +13,10 @@ public class Code06_QuickSort {
 
 	public static void quickSort(int[] arr, int l, int r) {
 		if (l < r) {
+			//以最后一个数作为枢轴
 			swap(arr, l + (int) (Math.random() * (r - l + 1)), r);
 			int[] p = partition(arr, l, r);
+			//递归快排将所有元素分好区之后数组
 			quickSort(arr, l, p[0] - 1);
 			quickSort(arr, p[1] + 1, r);
 		}
@@ -24,6 +26,7 @@ public class Code06_QuickSort {
 		int less = l - 1;
 		int more = r;
 		while (l < more) {
+			//最后一个元素作为枢轴
 			if (arr[l] < arr[r]) {
 				swap(arr, ++less, l++);
 			} else if (arr[l] > arr[r]) {
