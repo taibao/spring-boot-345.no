@@ -8,33 +8,41 @@ public class Code03_HeapSort {
 		if (arr == null || arr.length < 2) {
 			return;
 		}
+		//构建大根堆
 		for (int i = 0; i < arr.length; i++) {
 			heapInsert(arr, i);
 		}
+		//从小到大排序序列化，将每个节点放到正确的位置
 		int size = arr.length;
-		swap(arr, 0, --size);
+		swap(arr, 0, --size); //直接将最大值，排在最后面
 		while (size > 0) {
-			heapify(arr, 0, size);
+			heapify(arr, 0, size);//每序列化一次就得到一个大根
 			swap(arr, 0, --size);
 		}
 	}
 
+	//插入堆
 	public static void heapInsert(int[] arr, int index) {
+		//如果当前节点大于父节点，就往上调
 		while (arr[index] > arr[(index - 1) / 2]) {
 			swap(arr, index, (index - 1) /2);
 			index = (index - 1)/2 ;
 		}
 	}
 
+	//堆化
 	public static void heapify(int[] arr, int index, int size) {
 		int left = index * 2 + 1;
+		//left是从小到大的过程， 从根到叶子的过程
 		while (left < size) {
+			//判断是否有右兄弟， 有的话返回两个最大的
 			int largest = left + 1 < size && arr[left + 1] > arr[left] ? left + 1 : left;
+			//与父节点比较， 返回大的
 			largest = arr[largest] > arr[index] ? largest : index;
 			if (largest == index) {
 				break;
 			}
-			swap(arr, largest, index);
+			swap(arr, largest, index); //交换成大根堆
 			index = largest;
 			left = index * 2 + 1;
 		}
