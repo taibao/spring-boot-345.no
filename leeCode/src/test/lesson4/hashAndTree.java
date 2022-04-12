@@ -1,9 +1,6 @@
 package test.lesson4;
 
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.TreeMap;
+import java.util.*;
 
 public class hashAndTree {
 
@@ -45,32 +42,52 @@ public class hashAndTree {
 
         //展示有序表常用操作，有序表key按顺序组织，key一定要能排序
         //有序表的增删改查都是O(logN)级别的
-        TreeMap<Integer,String> treeMap1 = new TreeMap<>();
-        treeMap1.put(7,"我是7");
-        treeMap1.put(5,"我是5");
-        treeMap1.put(4,"我是4");
-        treeMap1.put(3,"我是3");
-        treeMap1.put(9,"我是9");
-        treeMap1.put(2,"我是2");
-        treeMap1.put(1,"我是1");
-        System.out.println(treeMap1.containsKey(5));
-        System.out.println(treeMap1.get(5));
-        System.out.println(treeMap1.firstKey()+",我最小");
-        System.out.println(treeMap1.lastKey()+",我最大");
-        System.out.println(treeMap1.floorKey(8)+",在表中所有<=8的数，我离8最近");
-        System.out.println(treeMap1.ceilingKey(8)+",在表中所有>=8的数中，我离8最近");
-        System.out.println(treeMap1.floorKey(7)+",在表中所有<=7的数中，我离7最近");
-        System.out.println(treeMap1.ceilingKey(7)+",在表中所有>=7的数中，我离7最近");
-        treeMap1.remove(5);
-        System.out.println(treeMap1.get(5)+",删了就没有了");
+//        TreeMap<Integer,String> treeMap1 = new TreeMap<>();
+//        treeMap1.put(7,"我是7");
+//        treeMap1.put(5,"我是5");
+//        treeMap1.put(4,"我是4");
+//        treeMap1.put(3,"我是3");
+//        treeMap1.put(9,"我是9");
+//        treeMap1.put(2,"我是2");
+//        treeMap1.put(1,"我是1");
+//        System.out.println(treeMap1.containsKey(5));
+//        System.out.println(treeMap1.get(5));
+//        System.out.println(treeMap1.firstKey()+",我最小");
+//        System.out.println(treeMap1.lastKey()+",我最大");
+//        System.out.println(treeMap1.floorKey(8)+",在表中所有<=8的数，我离8最近");
+//        System.out.println(treeMap1.ceilingKey(8)+",在表中所有>=8的数中，我离8最近");
+//        System.out.println(treeMap1.floorKey(7)+",在表中所有<=7的数中，我离7最近");
+//        System.out.println(treeMap1.ceilingKey(7)+",在表中所有>=7的数中，我离7最近");
+//        treeMap1.remove(5);
+//        System.out.println(treeMap1.get(5)+",删了就没有了");
+//        System.out.println("=============================");
+
+//使用有序表必须提供比较器
+        TreeSet<Node> treeSet = new TreeSet(new NodeComparator()); //红黑树
+        nodeA = new Node(5);
+        nodeB = new Node(3);
+        nodeC = new Node(7);
+        try{
+            treeSet.add(nodeA);
+            treeSet.add(nodeB);
+            treeSet.add(nodeC);
+            System.out.println("添加节点");
+        }catch(Exception e){
+            System.out.println("抛出异常"+e.getMessage());
+        }
         System.out.println("=============================");
 
     }
 
 
 
-
-
+public static class NodeComparator implements Comparator<Node>{
+     //重载已有方法
+       @Override
+    public int compare(Node o1, Node o2){
+           return o1.value-o2.value;
+       }
+}
 
 public static void comparator(int[] arr){
         Arrays.sort(arr);
