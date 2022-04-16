@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+    <list default="true" id="f0956bda-6ead-4253-a934-6330210d1197" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/lesson4/hashAndTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <list default="true" id="f0956bda-6ead-4253-a934-6330210d1197" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -114,6 +118,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="test.lesson4" />
+      <recent name="test.lesson3" />
+      <recent name="test.lesson2" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="N:\spring-boot-345.no\leeCode\src\lesson32" />
       <recent name="N:\spring-boot-345.no\leeCode\src\lesson31" />
@@ -122,25 +131,13 @@
       <recent name="N:\spring-boot-345.no\leeCode\src\lesson28" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.Code09_FindOneLessValueIndex">
-    <configuration name="Code09_FindOneLessValueIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson1.Code09_FindOneLessValueIndex" />
+  <component name="RunManager" selected="Application.hashAndTree">
+    <configuration name="Code03_Comparator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson3.Code03_Comparator" />
       <module name="leeCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson1.*" />
+          <option name="PATTERN" value="lesson3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,26 +145,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dui" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dui" />
-      <module name="leeCode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="heapsort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="heapsort" />
-      <module name="leeCode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.lesson1.sort" />
+    <configuration name="countsort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.lesson3.countsort" />
       <module name="leeCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.lesson1.*" />
+          <option name="PATTERN" value="test.lesson3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hashAndTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.lesson4.hashAndTree" />
+      <module name="leeCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.lesson4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="quicksort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.lesson2.quicksort" />
+      <module name="leeCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.lesson2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="radixsort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.lesson3.radixsort" />
+      <module name="leeCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.lesson3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,10 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Code09_FindOneLessValueIndex" />
-        <item itemvalue="Application.sort" />
-        <item itemvalue="Application.dui" />
-        <item itemvalue="Application.heapsort" />
+        <item itemvalue="Application.hashAndTree" />
+        <item itemvalue="Application.Code03_Comparator" />
+        <item itemvalue="Application.radixsort" />
+        <item itemvalue="Application.countsort" />
+        <item itemvalue="Application.quicksort" />
       </list>
     </recent_temporary>
   </component>
@@ -196,6 +219,7 @@
       <updated>1646144934812</updated>
       <workItem from="1646950794165" duration="4178000" />
       <workItem from="1647170846595" duration="1957000" />
+      <workItem from="1649381514995" duration="55053000" />
     </task>
     <servers />
   </component>
@@ -234,29 +258,35 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="729" y="373" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1646950815930">
-      <screen x="0" y="25" width="1680" height="951" />
+    <state x="729" y="381" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1649300074952">
+      <screen x="0" y="25" width="1680" height="972" />
     </state>
     <state x="729" y="373" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.25.1680.951@0.25.1680.951" timestamp="1646950815930" />
-    <state width="1834" height="393" key="GridCell.Tab.0.bottom" timestamp="1646961957003">
-      <screen x="1440" y="-350" width="2560" height="1415" />
+    <state x="729" y="381" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.25.1680.972@0.25.1680.972" timestamp="1649300074952" />
+    <state width="1416" height="188" key="GridCell.Tab.0.bottom" timestamp="1649601693087">
+      <screen x="0" y="25" width="1680" height="951" />
     </state>
     <state width="1834" height="393" key="GridCell.Tab.0.bottom/0.25.1440.801/1440.-350.2560.1415@1440.-350.2560.1415" timestamp="1646961957003" />
-    <state width="982" height="219" key="GridCell.Tab.0.bottom/0.25.1680.951@0.25.1680.951" timestamp="1646950856287" />
-    <state width="1834" height="393" key="GridCell.Tab.0.center" timestamp="1646961957002">
-      <screen x="1440" y="-350" width="2560" height="1415" />
+    <state width="1416" height="188" key="GridCell.Tab.0.bottom/0.25.1680.951@0.25.1680.951" timestamp="1649601693087" />
+    <state width="1416" height="188" key="GridCell.Tab.0.center" timestamp="1649601693086">
+      <screen x="0" y="25" width="1680" height="951" />
     </state>
     <state width="1834" height="393" key="GridCell.Tab.0.center/0.25.1440.801/1440.-350.2560.1415@1440.-350.2560.1415" timestamp="1646961957002" />
-    <state width="982" height="219" key="GridCell.Tab.0.center/0.25.1680.951@0.25.1680.951" timestamp="1646950856286" />
-    <state width="1834" height="393" key="GridCell.Tab.0.left" timestamp="1646961957001">
-      <screen x="1440" y="-350" width="2560" height="1415" />
+    <state width="1416" height="188" key="GridCell.Tab.0.center/0.25.1680.951@0.25.1680.951" timestamp="1649601693086" />
+    <state width="1416" height="188" key="GridCell.Tab.0.left" timestamp="1649601693086">
+      <screen x="0" y="25" width="1680" height="951" />
     </state>
     <state width="1834" height="393" key="GridCell.Tab.0.left/0.25.1440.801/1440.-350.2560.1415@1440.-350.2560.1415" timestamp="1646961957001" />
-    <state width="982" height="219" key="GridCell.Tab.0.left/0.25.1680.951@0.25.1680.951" timestamp="1646950856285" />
-    <state width="1834" height="393" key="GridCell.Tab.0.right" timestamp="1646961957002">
-      <screen x="1440" y="-350" width="2560" height="1415" />
+    <state width="1416" height="188" key="GridCell.Tab.0.left/0.25.1680.951@0.25.1680.951" timestamp="1649601693086" />
+    <state width="1416" height="188" key="GridCell.Tab.0.right" timestamp="1649601693087">
+      <screen x="0" y="25" width="1680" height="951" />
     </state>
     <state width="1834" height="393" key="GridCell.Tab.0.right/0.25.1440.801/1440.-350.2560.1415@1440.-350.2560.1415" timestamp="1646961957002" />
+    <state width="1416" height="188" key="GridCell.Tab.0.right/0.25.1680.951@0.25.1680.951" timestamp="1649601693087" />
+    <state x="866" y="230" width="670" height="676" key="search.everywhere.popup" timestamp="1649597787862">
+      <screen x="0" y="25" width="1680" height="951" />
+    </state>
+    <state x="866" y="230" width="670" height="676" key="search.everywhere.popup/0.25.1680.951@0.25.1680.951" timestamp="1649597787862" />
     <state width="982" height="219" key="GridCell.Tab.0.right/0.25.1680.951@0.25.1680.951" timestamp="1646950856286" />
   </component>
   <component name="editorHistoryManager">

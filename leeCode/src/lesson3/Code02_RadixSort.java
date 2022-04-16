@@ -32,17 +32,20 @@ public class Code02_RadixSort {
 		int[] bucket = new int[end - begin + 1];
 		for (int d = 1; d <= digit; d++) {
 			int[] count = new int[radix];
+			//首先统计各位的数据在count上有多少个
 			for (i = begin; i <= end; i++) {
-				j = getDigit(arr[i], d);
+				j = getDigit(arr[i], d); //拿到第d位的数
 				count[j]++;
 			}
+			//将词频数组转为前缀和数组
 			for (i = 1; i < radix; i++) {
 				count[i] = count[i] + count[i - 1];
 			}
+			//从右往左倒出数据到指定位置
 			for (i = end; i >= begin; i--) {
 				j = getDigit(arr[i], d);
-				bucket[count[j] - 1] = arr[i];
-				count[j]--;
+				bucket[count[j] - 1] = arr[i]; //将值倒在bucket[count[j]-1]的位置上
+				count[j]--;//前缀和减1
 			}
 			for (i = begin, j = 0; i <= end; i++, j++) {
 				arr[i] = bucket[j];
@@ -50,7 +53,9 @@ public class Code02_RadixSort {
 		}
 	}
 
+	//求d位上的值
 	public static int getDigit(int x, int d) {
+		//Math.pow 求指数运算
 		return ((x / ((int) Math.pow(10, d - 1))) % 10);
 	}
 

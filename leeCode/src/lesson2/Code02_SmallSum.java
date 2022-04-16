@@ -16,10 +16,11 @@ public class Code02_SmallSum {
 		int mid = l + ((r - l) >> 1);
 		return mergeSort(arr, l, mid) 
 				+ mergeSort(arr, mid + 1, r) 
-				+ merge(arr, l, mid, r);
+				+ merge(arr, l, mid, r); //当上面拆到不可再拆的时候合并
 	}
 
 	public static int merge(int[] arr, int l, int m, int r) {
+		//归并排序 p1~mid, p2~mid都是有序的
 		int[] help = new int[r - l + 1];
 		int i = 0;
 		int p1 = l;

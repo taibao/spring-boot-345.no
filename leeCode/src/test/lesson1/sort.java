@@ -45,9 +45,43 @@ public class sort {
 //        int[] arr1 = {3,3,2,3,1,1,1,3,4,1,1,1};
 //        printOddTimesNum2(arr1);
 
-        int[] arr = {1,2,13,5,6};
-        int max = process(arr,0,arr.length-1);
-        System.out.println(max);
+//        int[] arr = {1,2,13,5,6};
+//        int max = process(arr,0,arr.length-1);
+//        System.out.println(max);
+
+        //求局部最小值
+        int[] arr = { 6, 5, 3, 4, 6, 7, 8 };
+        int index = getLessIndex(arr);
+        System.out.println(index+"，值为"+arr[index]);
+    }
+
+    //获取局部最小值
+    public static int getLessIndex(int[] arr){
+        int len = arr.length;
+        if(arr == null || len==0)
+        {
+            return -1;
+        }
+        if(len==1 || arr[0]<arr[1]){
+            return 0;
+        }
+        if( arr[len-1]<arr[len-2]){
+            return len-1;
+        }
+        int l = 1;
+        int r = len-2;
+        int mid = 0;
+        while(l<r){
+            mid = (l+r)/2;
+            if(arr[mid]>arr[mid-1]){
+                r = mid -1;
+            }else if(arr[mid]>arr[mid+1]){
+                l = mid +1;
+            }else{
+                return mid;
+            }
+        }
+        return l;
     }
 
     //获取最大值递归版

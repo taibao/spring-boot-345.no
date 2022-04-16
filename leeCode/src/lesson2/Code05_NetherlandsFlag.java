@@ -3,17 +3,20 @@ package lesson2;
 public class Code05_NetherlandsFlag {
 
 	public static int[] partition(int[] arr, int l, int r, int p) {
+		//定义左右边界
 		int less = l - 1;
 		int more = r + 1;
+		//当前左边没有触碰到大于区即循环
 		while (l < more) {
 			if (arr[l] < p) {
-				swap(arr, ++less, l++);
+				swap(arr, ++less, l++); //小于区的右边界右扩
 			} else if (arr[l] > p) {
-				swap(arr, --more, l);
+				swap(arr, --more, l); //大于区的左边界左扩
 			} else {
-				l++;
+				l++; //等于p的时候直接下一个
 			}
 		}
+		//返回各区域边界下标
 		return new int[] { less + 1, more - 1 };
 	}
 
