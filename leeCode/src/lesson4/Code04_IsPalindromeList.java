@@ -2,6 +2,7 @@ package lesson4;
 
 import java.util.Stack;
 
+//求回文数
 public class Code04_IsPalindromeList {
 
 	public static class Node {
@@ -31,6 +32,7 @@ public class Code04_IsPalindromeList {
 	}
 
 	// need n/2 extra space
+	//判断回文数，快慢指针
 	public static boolean isPalindrome2(Node head) {
 		if (head == null || head.next == null) {
 			return true;
