@@ -25,12 +25,41 @@ public class ReverseList {
         }
     }
 
+    //反转单链表,需要两个节点存储当前节点和下一个节点, 返回反转后的头节点
+    public static Node reverseList(Node head){
+        Node pre=null;
+        Node next=null;
+        while(head!=null){
+            next = head.next;
+            head.next = pre;
+            pre =  head;
+            head = next;
+        }
+        return pre;
+    }
+
+    //反转双链表
+    public static DoubleNode reverseList(DoubleNode head){
+        DoubleNode pre=null;
+        DoubleNode next=null;
+        while(head!=null){
+            next = head.next; //next提前指向下一个节点
+            head.next = pre;
+            head.pre = next; //当前节点的前驱必然指向其原本下一个节点（因为反转）
+            pre = head;
+            head = next;
+        }
+        return pre;
+    }
+
 
     public static void main(String[] args){
-        Node head1 = new Node(1);
-        head1.next = new Node(2);
-        head1.next.next = new Node(3);
-        printDan(head1);
+//        Node head1 = new Node(1);
+//        head1.next = new Node(2);
+//        head1.next.next = new Node(3);
+////        printDan(head1);
+//        printDan(reverseList(head1)); //打印逆序单链表
+
 
         //创建双链表实例, 创建的时候要同时把前去后继都给关联上
         //定义第一个双链表节点， 没有前驱只有后继
@@ -45,8 +74,8 @@ public class ReverseList {
         head2.next.next.next = new DoubleNode(4);
         head2.next.next.next.pre = head2.next.next;
 
-        printDouble(head2.next);
-
+//        printDouble(head2.next);
+        printDouble(reverseList(head2));
 
 //        head1 = reverseList(head1);
     }

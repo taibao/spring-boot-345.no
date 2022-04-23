@@ -2,301 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0956bda-6ead-4253-a934-6330210d1197" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/lesson4/ReverseList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson1/Code01_SelectionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson1/Code01_SelectionSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson1/Code02_BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson1/Code02_BubbleSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson1/Code03_InsertionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson1/Code03_InsertionSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson1/Code04_BSExist.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson1/Code04_BSExist.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson1/Code05_BSNearLeft.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson1/Code05_BSNearLeft.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson1/Code06_BSAwesome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson1/Code06_BSAwesome.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson1/Code07_EvenTimesOddTimes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson1/Code07_EvenTimesOddTimes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson1/Code08_GetMax.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson1/Code08_GetMax.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson1/Code09_FindOneLessValueIndex.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson1/Code09_FindOneLessValueIndex.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson10/AVLTree$AVLNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson10/AVLTree$AVLNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson10/AVLTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson10/AVLTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson10/AbstractBinarySearchTree$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson10/AbstractBinarySearchTree$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson10/AbstractBinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson10/AbstractBinarySearchTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson10/AbstractSelfBalancingBinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson10/AbstractSelfBalancingBinarySearchTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson10/BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson10/BinarySearchTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson10/Code01_SizeBalancedTreeMap$SBTNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson10/Code01_SizeBalancedTreeMap$SBTNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson10/Code01_SizeBalancedTreeMap$SizeBalancedTreeMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson10/Code01_SizeBalancedTreeMap$SizeBalancedTreeMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson10/Code01_SizeBalancedTreeMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson10/Code01_SizeBalancedTreeMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson10/Code02_SizeBalancedTreeMap$SizeBalancedTreeMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson10/Code02_SizeBalancedTreeMap$SizeBalancedTreeMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson10/Code02_SizeBalancedTreeMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson10/Code02_SizeBalancedTreeMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson10/Code03_SkipListMap$SkipListMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson10/Code03_SkipListMap$SkipListMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson10/Code03_SkipListMap$SkipListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson10/Code03_SkipListMap$SkipListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson10/Code03_SkipListMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson10/Code03_SkipListMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson10/RedBlackTree$ColorEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson10/RedBlackTree$ColorEnum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson10/RedBlackTree$RedBlackNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson10/RedBlackTree$RedBlackNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson10/RedBlackTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson10/RedBlackTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson11/Code01_KMP.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson11/Code01_KMP.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson11/Code02_Manacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson11/Code02_Manacher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson12/Code01_SlidingWindowMaxArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson12/Code01_SlidingWindowMaxArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson12/Code02_MonotonousStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson12/Code02_MonotonousStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson12/Code03_AllTimesMinToMax.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson12/Code03_AllTimesMinToMax.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson13/Code01_MorrisTraversal$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson13/Code01_MorrisTraversal$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson13/Code01_MorrisTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson13/Code01_MorrisTraversal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson13/Code02_MaxDistanceInTree$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson13/Code02_MaxDistanceInTree$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson13/Code02_MaxDistanceInTree$ReturnType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson13/Code02_MaxDistanceInTree$ReturnType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson13/Code02_MaxDistanceInTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson13/Code02_MaxDistanceInTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson13/Code03_MaxHappy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson13/Code03_MaxHappy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson14/Code01_GetMax.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson14/Code01_GetMax.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson14/Code02_Power.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson14/Code02_Power.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson14/Code03_AddMinusMultiDivideByBit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson14/Code03_AddMinusMultiDivideByBit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson15/Code01_RobotWalk.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson15/Code01_RobotWalk.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson15/Code02_CoinsMin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson15/Code02_CoinsMin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson15/Code03_CardsInLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson15/Code03_CardsInLine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson15/Code04_HorseJump.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson15/Code04_HorseJump.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson15/Code05_BobDie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson15/Code05_BobDie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson16/Code01_MinPathSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson16/Code01_MinPathSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson17/Problem01_CordCoverMaxPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson17/Problem01_CordCoverMaxPoint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson17/Problem02_AppleMinBags.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson17/Problem02_AppleMinBags.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson17/Problem03_ColorLeftRight.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson17/Problem03_ColorLeftRight.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson17/Problem04_MaxOneBorderSize.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson17/Problem04_MaxOneBorderSize.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson17/Problem05_Rand5ToRand7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson17/Problem05_Rand5ToRand7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson17/Problem06_UniqueBST$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson17/Problem06_UniqueBST$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson17/Problem06_UniqueBST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson17/Problem06_UniqueBST.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson17/Problem07_NeedParentheses.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson17/Problem07_NeedParentheses.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson18/Problem01_SubvalueEqualK.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson18/Problem01_SubvalueEqualK.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson18/Problem02_MagicOp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson18/Problem02_MagicOp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson18/Problem03_NumToStringWays.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson18/Problem03_NumToStringWays.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson18/Problem04_ParenthesesDeep.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson18/Problem04_ParenthesesDeep.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson18/Problem05_StackSortStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson18/Problem05_StackSortStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson18/Problem06_Eat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson18/Problem06_Eat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson18/Problem07_MaxSumInTree$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson18/Problem07_MaxSumInTree$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson18/Problem07_MaxSumInTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson18/Problem07_MaxSumInTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson19/Problem01_PackingMachine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson19/Problem01_PackingMachine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson19/Problem02_ZigZagPrintMatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson19/Problem02_ZigZagPrintMatrix.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson19/Problem03_RotateMatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson19/Problem03_RotateMatrix.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson19/Problem04_PrintMatrixSpiralOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson19/Problem04_PrintMatrixSpiralOrder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson19/Problem05_FindNumInSortedMatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson19/Problem05_FindNumInSortedMatrix.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson19/Problem06_SplitNbySM.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson19/Problem06_SplitNbySM.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson19/Problem07_TopKTimes$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson19/Problem07_TopKTimes$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson19/Problem07_TopKTimes$NodeComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson19/Problem07_TopKTimes$NodeComparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson19/Problem07_TopKTimes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson19/Problem07_TopKTimes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson2/Code01_MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson2/Code01_MergeSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson2/Code02_SmallSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson2/Code02_SmallSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson2/Code03_HeapSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson2/Code03_HeapSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson2/Code04_SortArrayDistanceLessK.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson2/Code04_SortArrayDistanceLessK.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson2/Code05_NetherlandsFlag.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson2/Code05_NetherlandsFlag.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson2/Code06_QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson2/Code06_QuickSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson20/Problem01_DogCatQueue$Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson20/Problem01_DogCatQueue$Cat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson20/Problem01_DogCatQueue$Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson20/Problem01_DogCatQueue$Dog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson20/Problem01_DogCatQueue$DogCatQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson20/Problem01_DogCatQueue$DogCatQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson20/Problem01_DogCatQueue$Pet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson20/Problem01_DogCatQueue$Pet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson20/Problem01_DogCatQueue$PetEnterQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson20/Problem01_DogCatQueue$PetEnterQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson20/Problem01_DogCatQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson20/Problem01_DogCatQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson20/Problem02_GetMinStack$MyStack1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson20/Problem02_GetMinStack$MyStack1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson20/Problem02_GetMinStack$MyStack2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson20/Problem02_GetMinStack$MyStack2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson20/Problem02_GetMinStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson20/Problem02_GetMinStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson20/Problem03_StackAndQueueConvert$TwoQueuesStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson20/Problem03_StackAndQueueConvert$TwoQueuesStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson20/Problem03_StackAndQueueConvert$TwoStacksQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson20/Problem03_StackAndQueueConvert$TwoStacksQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson20/Problem03_StackAndQueueConvert.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson20/Problem03_StackAndQueueConvert.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson20/Problem04_MinPathSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson20/Problem04_MinPathSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson20/Problem05_WaterProblem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson20/Problem05_WaterProblem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson20/Problem06_MaxABSBetweenLeftAndRight.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson20/Problem06_MaxABSBetweenLeftAndRight.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson20/Problem07_IsRotation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson20/Problem07_IsRotation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson21/Problem01_ZeroLeftOneStringNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson21/Problem01_ZeroLeftOneStringNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson21/Problem02_DeleteWood.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson21/Problem02_DeleteWood.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson21/Problem03_NearMultiple4Times.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson21/Problem03_NearMultiple4Times.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson21/Problem04_ConvertStringToInteger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson21/Problem04_ConvertStringToInteger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson21/Problem05_TopKTimesRealTime$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson21/Problem05_TopKTimesRealTime$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson21/Problem05_TopKTimesRealTime$TopKRecord.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson21/Problem05_TopKTimesRealTime$TopKRecord.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson21/Problem05_TopKTimesRealTime.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson21/Problem05_TopKTimesRealTime.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson21/Problem06_CompriseWays.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson21/Problem06_CompriseWays.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson21/Problem07_ChooseWork$Job.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson21/Problem07_ChooseWork$Job.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson21/Problem07_ChooseWork$JobComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson21/Problem07_ChooseWork$JobComparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson21/Problem07_ChooseWork.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson21/Problem07_ChooseWork.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson22/Problem01_GetFolderTree$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson22/Problem01_GetFolderTree$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson22/Problem01_GetFolderTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson22/Problem01_GetFolderTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson22/Problem02_BSTtoDoubleLinkedList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson22/Problem02_BSTtoDoubleLinkedList$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson22/Problem02_BSTtoDoubleLinkedList$RetrunType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson22/Problem02_BSTtoDoubleLinkedList$RetrunType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson22/Problem02_BSTtoDoubleLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson22/Problem02_BSTtoDoubleLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson22/Problem03_BiggestSubBSTInTree$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson22/Problem03_BiggestSubBSTInTree$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson22/Problem03_BiggestSubBSTInTree$ReturnType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson22/Problem03_BiggestSubBSTInTree$ReturnType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson22/Problem03_BiggestSubBSTInTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson22/Problem03_BiggestSubBSTInTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson22/Problem04_PreAndInArrayToPosArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson22/Problem04_PreAndInArrayToPosArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson22/Problem05_Light.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson22/Problem05_Light.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson22/Problem06_SubArrayMaxSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson22/Problem06_SubArrayMaxSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson22/Problem07_SubMatrixMaxSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson22/Problem07_SubMatrixMaxSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson23/Problem01_ChineseExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson23/Problem01_ChineseExpression.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson23/Problem01_EnglishExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson23/Problem01_EnglishExpression.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson23/Problem02_PrintNoInArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson23/Problem02_PrintNoInArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson23/Problem03_3times.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson23/Problem03_3times.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson23/Problem04_Kiki.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson23/Problem04_Kiki.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson23/Problem05_CompleteTreeNodeNumber$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson23/Problem05_CompleteTreeNodeNumber$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson23/Problem05_CompleteTreeNodeNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson23/Problem05_CompleteTreeNodeNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson23/Problem06_MaxRevenue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson23/Problem06_MaxRevenue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson23/Problem07_EnvelopesProblem$Envelope.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson23/Problem07_EnvelopesProblem$Envelope.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson23/Problem07_EnvelopesProblem$EnvelopeComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson23/Problem07_EnvelopesProblem$EnvelopeComparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson23/Problem07_EnvelopesProblem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson23/Problem07_EnvelopesProblem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson24/Problem01_MostEOR.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson24/Problem01_MostEOR.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson24/Problem02_ExpressionNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson24/Problem02_ExpressionNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson24/Problem03_StringToKth.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson24/Problem03_StringToKth.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson24/Problem04_LongestNoRepeatSubstring.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson24/Problem04_LongestNoRepeatSubstring.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson24/Problem05_EditCost.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson24/Problem05_EditCost.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson24/Problem06_RemoveDuplicateLettersLessLexi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson24/Problem06_RemoveDuplicateLettersLessLexi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson24/Problem07_WordMinPaths.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson24/Problem07_WordMinPaths.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson25/Problem01_MaxGap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson25/Problem01_MaxGap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson25/Problem02_MostEOR.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson25/Problem02_MostEOR.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson25/Problem03_MoneyWays.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson25/Problem03_MoneyWays.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson25/Problem04_JosephusProblem$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson25/Problem04_JosephusProblem$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson25/Problem04_JosephusProblem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson25/Problem04_JosephusProblem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson25/Problem05_FindKthMinNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson25/Problem05_FindKthMinNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson26/Problem01_BuildingOutline$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson26/Problem01_BuildingOutline$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson26/Problem01_BuildingOutline$NodeComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson26/Problem01_BuildingOutline$NodeComparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson26/Problem01_BuildingOutline.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson26/Problem01_BuildingOutline.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson26/Problem02_LongestSumSubArrayLengthInPositiveArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson26/Problem02_LongestSumSubArrayLengthInPositiveArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson26/Problem03_LongestLessSumSubArrayLength.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson26/Problem03_LongestLessSumSubArrayLength.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson26/Problem04_Nim.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson26/Problem04_Nim.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson26/Problem05_NumberAndString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson26/Problem05_NumberAndString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson27/Problem01_MaxPathSumInBT$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson27/Problem01_MaxPathSumInBT$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson27/Problem01_MaxPathSumInBT$ReturnType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson27/Problem01_MaxPathSumInBT$ReturnType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson27/Problem01_MaxPathSumInBT.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson27/Problem01_MaxPathSumInBT.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson27/Problem02_SnakeGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson27/Problem02_SnakeGame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson27/Problem03_ExpressionCompute.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson27/Problem03_ExpressionCompute.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson27/Problem04_LCSubstring.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson27/Problem04_LCSubstring.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson27/Problem05_LCSubsequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson27/Problem05_LCSubsequence.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson28/Problem01_MinBoat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson28/Problem01_MinBoat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson28/Problem02_PalindromeSubsequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson28/Problem02_PalindromeSubsequence.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson28/Problem03_PalindromeMinAdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson28/Problem03_PalindromeMinAdd.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson28/Problem04_PalindromeMinCut.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson28/Problem04_PalindromeMinCut.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson28/Problem05_PalindromeWays.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson28/Problem05_PalindromeWays.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson28/Problem06_BFPRT.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson28/Problem06_BFPRT.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson29/Problem01_CoinsWay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson29/Problem01_CoinsWay.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson29/Problem02_SplitNumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson29/Problem02_SplitNumer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson29/Problem03_BiggestBSTTopologyInTree$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson29/Problem03_BiggestBSTTopologyInTree$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson29/Problem03_BiggestBSTTopologyInTree$Record.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson29/Problem03_BiggestBSTTopologyInTree$Record.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson29/Problem03_BiggestBSTTopologyInTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson29/Problem03_BiggestBSTTopologyInTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson29/Problem04_ShuffleProblem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson29/Problem04_ShuffleProblem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson3/Code01_CountSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson3/Code01_CountSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson3/Code02_RadixSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson3/Code02_RadixSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson3/Code03_Comparator$AgeAscendingComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson3/Code03_Comparator$AgeAscendingComparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson3/Code03_Comparator$AgeDescendingComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson3/Code03_Comparator$AgeDescendingComparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson3/Code03_Comparator$IdAscendingComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson3/Code03_Comparator$IdAscendingComparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson3/Code03_Comparator$IdDescendingComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson3/Code03_Comparator$IdDescendingComparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson3/Code03_Comparator$MyComp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson3/Code03_Comparator$MyComp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson3/Code03_Comparator$Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson3/Code03_Comparator$Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson3/Code03_Comparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson3/Code03_Comparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson30/Problem01_SDEandPM$BigQueues.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson30/Problem01_SDEandPM$BigQueues.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson30/Problem01_SDEandPM$PmLoveRule.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson30/Problem01_SDEandPM$PmLoveRule.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson30/Problem01_SDEandPM$Program.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson30/Problem01_SDEandPM$Program.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson30/Problem01_SDEandPM$StartRule.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson30/Problem01_SDEandPM$StartRule.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson30/Problem01_SDEandPM.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson30/Problem01_SDEandPM.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson30/Problem02_RecoverBST$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson30/Problem02_RecoverBST$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson30/Problem02_RecoverBST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson30/Problem02_RecoverBST.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson30/Problem03_VisibleMountains$Record.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson30/Problem03_VisibleMountains$Record.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson30/Problem03_VisibleMountains.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson30/Problem03_VisibleMountains.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson30/Problem04_CoverMax$DownComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson30/Problem04_CoverMax$DownComparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson30/Problem04_CoverMax$LeftComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson30/Problem04_CoverMax$LeftComparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson30/Problem04_CoverMax$Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson30/Problem04_CoverMax$Rectangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson30/Problem04_CoverMax$RightComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson30/Problem04_CoverMax$RightComparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson30/Problem04_CoverMax.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson30/Problem04_CoverMax.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson31/Problem01_RegularExpressionMatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson31/Problem01_RegularExpressionMatch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson31/Problem02_MaxEOR$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson31/Problem02_MaxEOR$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson31/Problem02_MaxEOR$NumTrie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson31/Problem02_MaxEOR$NumTrie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson31/Problem02_MaxEOR.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson31/Problem02_MaxEOR.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson31/Problem03_BurstBalloons.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson31/Problem03_BurstBalloons.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson31/Problem04_HanoiProblem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson31/Problem04_HanoiProblem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson32/Problem01_ScrambleString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson32/Problem01_ScrambleString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson32/Problem02_MinWindowLength.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson32/Problem02_MinWindowLength.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson32/Problem03_LFU$LFUCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson32/Problem03_LFU$LFUCache.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson32/Problem03_LFU$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson32/Problem03_LFU$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson32/Problem03_LFU$NodeList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson32/Problem03_LFU$NodeList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson32/Problem03_LFU.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson32/Problem03_LFU.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson32/Problem04_GasStations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson32/Problem04_GasStations.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson4/Code01_HashAndTree$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson4/Code01_HashAndTree$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson4/Code01_HashAndTree$NodeComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson4/Code01_HashAndTree$NodeComparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson4/Code01_HashAndTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson4/Code01_HashAndTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson4/Code02_ReverseList$DoubleNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson4/Code02_ReverseList$DoubleNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson4/Code02_ReverseList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson4/Code02_ReverseList$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson4/Code02_ReverseList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson4/Code02_ReverseList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson4/Code03_PrintCommonPart$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson4/Code03_PrintCommonPart$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson4/Code03_PrintCommonPart.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson4/Code03_PrintCommonPart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson4/Code04_IsPalindromeList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson4/Code04_IsPalindromeList$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson4/Code04_IsPalindromeList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson4/Code04_IsPalindromeList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson4/Code05_SmallerEqualBigger$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson4/Code05_SmallerEqualBigger$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson4/Code05_SmallerEqualBigger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson4/Code05_SmallerEqualBigger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson4/Code06_CopyListWithRandom$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson4/Code06_CopyListWithRandom$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson4/Code06_CopyListWithRandom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson4/Code06_CopyListWithRandom.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson4/Code07_FindFirstIntersectNode$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson4/Code07_FindFirstIntersectNode$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson4/Code07_FindFirstIntersectNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson4/Code07_FindFirstIntersectNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson5/Code01_PreInPosTraversal$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson5/Code01_PreInPosTraversal$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson5/Code01_PreInPosTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson5/Code01_PreInPosTraversal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson5/Code02_PrintBinaryTree$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson5/Code02_PrintBinaryTree$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson5/Code02_PrintBinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson5/Code02_PrintBinaryTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson5/Code03_TreeMaxWidth$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson5/Code03_TreeMaxWidth$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson5/Code03_TreeMaxWidth.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson5/Code03_TreeMaxWidth.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson5/Code04_IsBST$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson5/Code04_IsBST$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson5/Code04_IsBST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson5/Code04_IsBST.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson5/Code05_IsCBT$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson5/Code05_IsCBT$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson5/Code05_IsCBT.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson5/Code05_IsCBT.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson5/Code06_IsBalancedTree$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson5/Code06_IsBalancedTree$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson5/Code06_IsBalancedTree$ReturnType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson5/Code06_IsBalancedTree$ReturnType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson5/Code06_IsBalancedTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson5/Code06_IsBalancedTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson5/Code07_LowestCommonAncestor$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson5/Code07_LowestCommonAncestor$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson5/Code07_LowestCommonAncestor$Record1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson5/Code07_LowestCommonAncestor$Record1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson5/Code07_LowestCommonAncestor$Record2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson5/Code07_LowestCommonAncestor$Record2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson5/Code07_LowestCommonAncestor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson5/Code07_LowestCommonAncestor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson5/Code08_SuccessorNode$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson5/Code08_SuccessorNode$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson5/Code08_SuccessorNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson5/Code08_SuccessorNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson5/Code09_SerializeAndReconstructTree$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson5/Code09_SerializeAndReconstructTree$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson5/Code09_SerializeAndReconstructTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson5/Code09_SerializeAndReconstructTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson5/Code10_PaperFolding.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson5/Code10_PaperFolding.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson6/Code01_BFS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson6/Code01_BFS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson6/Code02_DFS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson6/Code02_DFS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson6/Code03_TopologySort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson6/Code03_TopologySort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson6/Code04_Kruskal$EdgeComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson6/Code04_Kruskal$EdgeComparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson6/Code04_Kruskal$UnionFind.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson6/Code04_Kruskal$UnionFind.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson6/Code04_Kruskal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson6/Code04_Kruskal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson6/Code05_Prim$EdgeComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson6/Code05_Prim$EdgeComparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson6/Code05_Prim.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson6/Code05_Prim.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson6/Code06_Dijkstra$NodeHeap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson6/Code06_Dijkstra$NodeHeap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson6/Code06_Dijkstra$NodeRecord.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson6/Code06_Dijkstra$NodeRecord.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson6/Code06_Dijkstra.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson6/Code06_Dijkstra.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson6/Edge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson6/Edge.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson6/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson6/Graph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson6/GraphGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson6/GraphGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson6/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson6/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson7/Code01_TrieTree$Trie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson7/Code01_TrieTree$Trie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson7/Code01_TrieTree$TrieNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson7/Code01_TrieTree$TrieNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson7/Code01_TrieTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson7/Code01_TrieTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson7/Code02_LowestLexicography$MyComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson7/Code02_LowestLexicography$MyComparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson7/Code02_LowestLexicography.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson7/Code02_LowestLexicography.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson7/Code03_LessMoneySplitGold$MaxheapComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson7/Code03_LessMoneySplitGold$MaxheapComparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson7/Code03_LessMoneySplitGold$MinheapComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson7/Code03_LessMoneySplitGold$MinheapComparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson7/Code03_LessMoneySplitGold.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson7/Code03_LessMoneySplitGold.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson7/Code04_BestArrange$Program.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson7/Code04_BestArrange$Program.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson7/Code04_BestArrange$ProgramComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson7/Code04_BestArrange$ProgramComparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson7/Code04_BestArrange.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson7/Code04_BestArrange.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson7/Code05_IPO$MaxProfitComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson7/Code05_IPO$MaxProfitComparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson7/Code05_IPO$MinCostComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson7/Code05_IPO$MinCostComparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson7/Code05_IPO$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson7/Code05_IPO$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson7/Code05_IPO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson7/Code05_IPO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson7/Code06_MadianQuick$MaxHeapComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson7/Code06_MadianQuick$MaxHeapComparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson7/Code06_MadianQuick$MedianHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson7/Code06_MadianQuick$MedianHolder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson7/Code06_MadianQuick$MinHeapComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson7/Code06_MadianQuick$MinHeapComparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson7/Code06_MadianQuick.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson7/Code06_MadianQuick.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson8/Code01_Hanoi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson8/Code01_Hanoi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson8/Code02_PrintAllSubsquences.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson8/Code02_PrintAllSubsquences.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson8/Code03_PrintAllPermutations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson8/Code03_PrintAllPermutations.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson8/Code04_ReverseStackUsingRecursive.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson8/Code04_ReverseStackUsingRecursive.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson8/Code06_ConvertToLetterString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson8/Code06_ConvertToLetterString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson8/Code07_Knapsack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson8/Code07_Knapsack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson8/Code08_CardsInLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson8/Code08_CardsInLine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson8/Code09_NQueens.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson8/Code09_NQueens.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson9/Code01_HashMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson9/Code01_HashMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson9/Code02_RandomPool$Pool.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson9/Code02_RandomPool$Pool.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson9/Code02_RandomPool.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson9/Code02_RandomPool.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson9/Code03_Islands.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson9/Code03_Islands.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson9/Code04_UnionFind$Element.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson9/Code04_UnionFind$Element.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson9/Code04_UnionFind$UnionFindSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson9/Code04_UnionFind$UnionFindSet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson9/Code04_UnionFind.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson9/Code04_UnionFind.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/test/Code02_RadixSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/test/Code02_RadixSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/test/Code04_SortArrayDistanceLessK.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/test/Code04_SortArrayDistanceLessK.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/test/dui.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/test/dui.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leeCode/test/heapsort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/test/heapsort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson4/Code02_ReverseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson4/Code02_ReverseList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/lesson4/ReverseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lesson4/ReverseList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -330,8 +37,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/lesson4/Code02_ReverseList.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="190">
-                  <caret line="78" column="35" lean-forward="true" selection-start-line="78" selection-start-column="35" selection-end-line="78" selection-end-column="35" />
+                <state relative-caret-position="258">
+                  <caret line="40" column="28" lean-forward="true" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
                   <folding>
                     <element signature="e#518#519#0" expanded="true" />
                     <element signature="e#544#545#0" expanded="true" />
@@ -347,8 +54,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/lesson4/ReverseList.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="380">
-                  <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+                <state relative-caret-position="336">
+                  <caret line="50" column="9" lean-forward="true" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#465#466#0" expanded="true" />
@@ -387,8 +94,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="215" />
-    <option name="y" value="98" />
+    <option name="x" value="285" />
+    <option name="y" value="17" />
     <option name="width" value="1480" />
     <option name="height" value="928" />
   </component>
@@ -449,7 +156,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1650716231366" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1650719333836" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -577,7 +284,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="263" y="14" width="1480" height="928" extended-state="0" />
+    <frame x="285" y="17" width="1480" height="928" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15985915" />
@@ -594,7 +301,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.16058394" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32201257" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32846716" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.42627737" />
@@ -804,8 +511,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lesson4/Code02_ReverseList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="78" column="35" lean-forward="true" selection-start-line="78" selection-start-column="35" selection-end-line="78" selection-end-column="35" />
+        <state relative-caret-position="258">
+          <caret line="40" column="28" lean-forward="true" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
           <folding>
             <element signature="e#518#519#0" expanded="true" />
             <element signature="e#544#545#0" expanded="true" />
@@ -815,8 +522,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/lesson4/ReverseList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="336">
+          <caret line="50" column="9" lean-forward="true" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#465#466#0" expanded="true" />

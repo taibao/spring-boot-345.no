@@ -17,8 +17,8 @@ public class Code02_ReverseList {
 		while (head != null) {
 			next = head.next;
 			head.next = pre;
-			pre = head;
-			head = next;
+			pre = head; //当前节点成了pre
+			head = next; //head指向下一个节点
 		}
 		return pre;
 	}
