@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0956bda-6ead-4253-a934-6330210d1197" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leeCode/lesson10/RedBlackTree$ColorEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leeCode/lesson10/RedBlackTree$ColorEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/lesson4/IsPalindromeList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lesson4/IsPalindromeList.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,48 +17,6 @@
     <SUITE FILE_PATH="coverage/leeCode$ReverseList.ic" NAME="ReverseList Coverage Results" MODIFIED="1650706763352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>test.lesson4.*</FILTER>
     </SUITE>
-  </component>
-  <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4904805">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/lesson4/Code03_PrintCommonPart.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="313">
-                  <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/test/lesson4/PrintCommon.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="104">
-                  <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/lesson4/IsPalindromeList.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="114">
-                  <caret line="7" selection-start-line="7" selection-end-line="7" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -68,82 +28,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/heapsort.java" />
-        <option value="$PROJECT_DIR$/src/dui.java" />
-        <option value="$PROJECT_DIR$/src/test/sort.java" />
-        <option value="$PROJECT_DIR$/src/lesson1/Code07_EvenTimesOddTimes.java" />
-        <option value="$PROJECT_DIR$/src/test/lesson1/sort.java" />
-        <option value="$PROJECT_DIR$/src/test/lesson4/hashAndTree.java" />
-        <option value="$PROJECT_DIR$/src/lesson4/Code02_ReverseList.java" />
-        <option value="$PROJECT_DIR$/src/test/lesson4/ReverseList.java" />
-        <option value="$PROJECT_DIR$/src/lesson4/Code04_IsPalindromeList.java" />
-        <option value="$PROJECT_DIR$/src/test/lesson4/IsPalindromeList.java" />
-        <option value="$PROJECT_DIR$/src/test/lesson4/PrintCommon.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="464" />
-    <option name="y" value="33" />
-    <option name="width" value="1480" />
-    <option name="height" value="914" />
-  </component>
   <component name="ProjectId" id="26DGYmkkV1gRiFiaCRPR1p3Cnrz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="leeCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leeCode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leeCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leeCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leeCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leeCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leeCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leeCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leeCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leeCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leeCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leeCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson4" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -152,6 +39,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1651850957843" />
@@ -174,25 +62,26 @@
       <recent name="N:\spring-boot-345.no\leeCode\src\lesson28" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.PrintCommon">
+  <component name="RunManager" selected="Application.IsPalindromeList">
     <configuration name="Code03_Comparator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson3.Code03_Comparator" />
       <module name="leeCode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lesson3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IsPalindromeList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.lesson4.IsPalindromeList" />
+      <module name="leeCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.lesson4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -239,26 +128,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="radixsort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.lesson3.radixsort" />
-      <module name="leeCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.lesson3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Application.PrintCommon" />
+      <item itemvalue="Application.ReverseList" />
+      <item itemvalue="Application.Code03_Comparator" />
+      <item itemvalue="Application.hashAndTree" />
+      <item itemvalue="Application.IsPalindromeList" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IsPalindromeList" />
         <item itemvalue="Application.PrintCommon" />
         <item itemvalue="Application.ReverseList" />
         <item itemvalue="Application.hashAndTree" />
         <item itemvalue="Application.Code03_Comparator" />
-        <item itemvalue="Application.radixsort" />
       </list>
     </recent_temporary>
   </component>
@@ -281,291 +164,64 @@
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="464" y="33" width="1480" height="914" extended-state="0" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22605634" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31113955" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3008963" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3277849" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.42509604" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32957748" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="729" y="381" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1649300074952">
-      <screen x="0" y="25" width="1680" height="972" />
+    <state x="2551" y="168" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1652099351739">
+      <screen x="1440" y="-350" width="2560" height="1415" />
     </state>
+    <state x="2551" y="168" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.25.1440.801/1440.-350.2560.1415@1440.-350.2560.1415" timestamp="1652099351739" />
     <state x="729" y="373" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.25.1680.951@0.25.1680.951" timestamp="1646950815930" />
     <state x="729" y="381" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.25.1680.972@0.25.1680.972" timestamp="1649300074952" />
-    <state width="1398" height="176" key="GridCell.Tab.0.bottom" timestamp="1649744528930">
-      <screen x="0" y="25" width="2560" height="1341" />
+    <state width="2041" height="294" key="GridCell.Tab.0.bottom" timestamp="1652099794386">
+      <screen x="1440" y="-350" width="2560" height="1415" />
     </state>
-    <state width="1834" height="393" key="GridCell.Tab.0.bottom/0.25.1440.801/1440.-350.2560.1415@1440.-350.2560.1415" timestamp="1646961957003" />
+    <state width="2041" height="294" key="GridCell.Tab.0.bottom/0.25.1440.801/1440.-350.2560.1415@1440.-350.2560.1415" timestamp="1652099794386" />
     <state width="1398" height="176" key="GridCell.Tab.0.bottom/0.25.1680.951@0.25.1680.951" timestamp="1649744186530" />
     <state width="1398" height="176" key="GridCell.Tab.0.bottom/0.25.2560.1341@0.25.2560.1341" timestamp="1649744528930" />
-    <state width="1398" height="176" key="GridCell.Tab.0.center" timestamp="1649744528929">
-      <screen x="0" y="25" width="2560" height="1341" />
+    <state width="2041" height="294" key="GridCell.Tab.0.center" timestamp="1652099794384">
+      <screen x="1440" y="-350" width="2560" height="1415" />
     </state>
-    <state width="1834" height="393" key="GridCell.Tab.0.center/0.25.1440.801/1440.-350.2560.1415@1440.-350.2560.1415" timestamp="1646961957002" />
+    <state width="2041" height="294" key="GridCell.Tab.0.center/0.25.1440.801/1440.-350.2560.1415@1440.-350.2560.1415" timestamp="1652099794384" />
     <state width="1398" height="176" key="GridCell.Tab.0.center/0.25.1680.951@0.25.1680.951" timestamp="1649744186528" />
     <state width="1398" height="176" key="GridCell.Tab.0.center/0.25.2560.1341@0.25.2560.1341" timestamp="1649744528929" />
-    <state width="1398" height="176" key="GridCell.Tab.0.left" timestamp="1649744528928">
-      <screen x="0" y="25" width="2560" height="1341" />
+    <state width="2041" height="294" key="GridCell.Tab.0.left" timestamp="1652099794383">
+      <screen x="1440" y="-350" width="2560" height="1415" />
     </state>
-    <state width="1834" height="393" key="GridCell.Tab.0.left/0.25.1440.801/1440.-350.2560.1415@1440.-350.2560.1415" timestamp="1646961957001" />
+    <state width="2041" height="294" key="GridCell.Tab.0.left/0.25.1440.801/1440.-350.2560.1415@1440.-350.2560.1415" timestamp="1652099794383" />
     <state width="1398" height="176" key="GridCell.Tab.0.left/0.25.1680.951@0.25.1680.951" timestamp="1649744186527" />
     <state width="1398" height="176" key="GridCell.Tab.0.left/0.25.2560.1341@0.25.2560.1341" timestamp="1649744528928" />
-    <state width="1398" height="176" key="GridCell.Tab.0.right" timestamp="1649744528930">
-      <screen x="0" y="25" width="2560" height="1341" />
+    <state width="2041" height="294" key="GridCell.Tab.0.right" timestamp="1652099794385">
+      <screen x="1440" y="-350" width="2560" height="1415" />
     </state>
-    <state width="1834" height="393" key="GridCell.Tab.0.right/0.25.1440.801/1440.-350.2560.1415@1440.-350.2560.1415" timestamp="1646961957002" />
-    <state width="1398" height="176" key="GridCell.Tab.0.right/0.25.1680.951@0.25.1680.951" timestamp="1649744186529" />
+    <state width="2041" height="294" key="GridCell.Tab.0.right/0.25.1440.801/1440.-350.2560.1415@1440.-350.2560.1415" timestamp="1652099794385" />
+    <state width="982" height="219" key="GridCell.Tab.0.right/0.25.1680.951@0.25.1680.951" timestamp="1646950856286" />
     <state width="1398" height="176" key="GridCell.Tab.0.right/0.25.2560.1341@0.25.2560.1341" timestamp="1649744528930" />
+    <state width="2041" height="386" key="GridCell.Tab.1.bottom" timestamp="1652099618510">
+      <screen x="1440" y="-350" width="2560" height="1415" />
+    </state>
+    <state width="2041" height="386" key="GridCell.Tab.1.bottom/0.25.1440.801/1440.-350.2560.1415@1440.-350.2560.1415" timestamp="1652099618510" />
+    <state width="2041" height="386" key="GridCell.Tab.1.center" timestamp="1652099618509">
+      <screen x="1440" y="-350" width="2560" height="1415" />
+    </state>
+    <state width="2041" height="386" key="GridCell.Tab.1.center/0.25.1440.801/1440.-350.2560.1415@1440.-350.2560.1415" timestamp="1652099618509" />
+    <state width="2041" height="386" key="GridCell.Tab.1.left" timestamp="1652099618509">
+      <screen x="1440" y="-350" width="2560" height="1415" />
+    </state>
+    <state width="2041" height="386" key="GridCell.Tab.1.left/0.25.1440.801/1440.-350.2560.1415@1440.-350.2560.1415" timestamp="1652099618509" />
+    <state width="2041" height="386" key="GridCell.Tab.1.right" timestamp="1652099618510">
+      <screen x="1440" y="-350" width="2560" height="1415" />
+    </state>
+    <state width="2041" height="386" key="GridCell.Tab.1.right/0.25.1440.801/1440.-350.2560.1415@1440.-350.2560.1415" timestamp="1652099618510" />
+    <state x="2507" y="52" width="667" height="486" key="find.popup" timestamp="1652099600989">
+      <screen x="1440" y="-350" width="2560" height="1415" />
+    </state>
+    <state x="2507" y="52" width="667" height="486" key="find.popup/0.25.1440.801/1440.-350.2560.1415@1440.-350.2560.1415" timestamp="1652099600989" />
     <state x="866" y="230" width="670" height="676" key="search.everywhere.popup" timestamp="1649597787862">
       <screen x="0" y="25" width="1680" height="951" />
     </state>
     <state x="866" y="230" width="670" height="676" key="search.everywhere.popup/0.25.1680.951@0.25.1680.951" timestamp="1649597787862" />
-    <state width="982" height="219" key="GridCell.Tab.0.right/0.25.1680.951@0.25.1680.951" timestamp="1646950856286" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/heapsort.java" />
-    <entry file="file://$PROJECT_DIR$/src/dui.java" />
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-228">
-          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-          <folding>
-            <element signature="n#component#0;n#project#0;n#!!top" />
-            <element signature="n#component#20;n#project#0;n#!!top" />
-            <element signature="n#component#21;n#project#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Code02_RadixSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Code04_SortArrayDistanceLessK.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/jdk/lib/src.zip!/java.base/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="806" column="31" lean-forward="true" selection-start-line="806" selection-start-column="31" selection-end-line="806" selection-end-column="31" />
-          <folding>
-            <element signature="e#33346#33347#0" expanded="true" />
-            <element signature="e#33431#33432#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/jdk/lib/src.zip!/java.base/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="81" column="67" lean-forward="true" selection-start-line="81" selection-start-column="67" selection-end-line="81" selection-end-column="67" />
-          <folding>
-            <element signature="e#3052#3053#0" expanded="true" />
-            <element signature="e#3110#3111#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson1/Code01_SelectionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="83" column="30" lean-forward="true" selection-start-line="83" selection-start-column="30" selection-end-line="83" selection-end-column="30" />
-          <folding>
-            <element signature="e#554#555#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson1/Code03_InsertionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson1/Code02_BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson1/Code04_BSExist.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson1/Code07_EvenTimesOddTimes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="26" column="44" lean-forward="true" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson1/Code06_BSAwesome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson1/Code05_BSNearLeft.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson1/Code08_GetMax.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding>
-            <element signature="e#85#86#0" expanded="true" />
-            <element signature="e#130#131#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/lesson1/sort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="234" column="29" lean-forward="true" selection-start-line="234" selection-start-column="29" selection-end-line="234" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson1/Code09_FindOneLessValueIndex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="45" lean-forward="true" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leeCode.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="39" lean-forward="true" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson4/Code01_HashAndTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/lesson4/ReverseList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#465#466#0" expanded="true" />
-            <element signature="e#498#499#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson4/Code02_ReverseList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="31" column="4" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
-          <folding>
-            <element signature="e#544#545#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/lesson4/hashAndTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
-          <folding>
-            <element signature="e#202#203#0" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson4/Code05_SmallerEqualBigger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson4/Code04_IsPalindromeList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/lesson4/IsPalindromeList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson4/Code03_PrintCommonPart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/lesson4/PrintCommon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>
