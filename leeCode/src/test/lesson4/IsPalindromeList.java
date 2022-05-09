@@ -21,8 +21,8 @@ public class IsPalindromeList {
         Node cur = head;
 
         while(cur != null){
-            stack.push(head);
-            head = cur.next;
+            stack.push(cur);
+            cur = cur.next;
         }
         while(head!=null){
             if(head.value!=stack.pop().value){
@@ -48,7 +48,8 @@ public class IsPalindromeList {
         head = new Node(1);
         head.next = new Node(2);
         head.next.next = new Node(3);
-        head.next.next.next = new Node(1);
+        head.next.next.next = new Node(2);
+        head.next.next.next.next = new Node(1);
         printLinkedList(head);
         System.out.print(isPalindrome1(head) + " | ");
     }
